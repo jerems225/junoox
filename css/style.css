@@ -144,7 +144,7 @@ main .search_engine .engine_input_search .search_engine_form .input_frame{
 
 main .search_engine .engine_input_search .search_engine_form .input_frame .search_icon{
     width: 10%;
-    height: 45%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,7 +163,7 @@ main .search_engine .engine_input_search .search_engine_form .input_frame .searc
 
 main .search_engine .engine_input_search .search_engine_form .input_frame .input_frame_search{
     width: 60%;
-    height: 45%;
+    height: 50%;
     border: 1px solid rgb(192, 192, 192);
     border-left: none;
     border-right: none;
@@ -174,7 +174,7 @@ main .search_engine .engine_input_search .search_engine_form .input_frame .input
 
 main .search_engine .engine_input_search .search_engine_form .input_frame .search_image_icon{
     width: 10%;
-    height: 45%;
+    height: 50%;
     border: 1px solid rgb(192, 192, 192);
     border-left: 0;
     border-top-right-radius: 30px;
