@@ -8,36 +8,34 @@
     <meta http-equiv="Expires" content="0">
     <title>Junoox | Moteur de recherche</title>
     
-    
-    
     <link rel="stylesheet" href="./resources/css/style.css">
     <link rel="stylesheet" href="./resources/css/modal.css">
 
-    
     <!--<link rel="stylesheet" href="css/animation.css">-->
     <link rel="shortcut icon" href="./resources/images/favicon.jpg" type="image/jpg">
     <script src="https://kit.fontawesome.com/0560fe03a6.js" crossorigin="anonymous"></script>
 
-    
-    
-    
 </head>
-<body class="container-body">
+<body>
     <header>
         <nav class="navbar">
+            <div class="navbar_logo">
+                <img src="./resources/images/logo_junoox_fit.png" alt="Logo">
+            </div>
             <div class="navbar_links">
-                <div class="logo">
-                    <img src="./resources/images/logo_junoox_fit.png" alt="Logo"  style="height: 30px; margin-left: 40px;">
-                </div>
-                <li class="navbar_item">
-                    <a href="services.html" class="button-70 cache-button" target="_blank" rel="noopener noreferrer">Accédez à nos services</a>
-                </li>
-                <li class="navbar_item services_collapse">
-                    <div class="icon_collapse">
-                        <a href="https://mail.junoox.net" class="button-75 button_mail" target="_blank" rel="noopener noreferrer">JMail</a>
-                        <img class="menu-icon" src="./resources/images/square_menu.png" alt="service_icon" id="openModalIcon">
-                    </div>
-                </li>
+                <ul class="navbar_items">
+                    <li class="navbar_item">
+                        <a href="./pages/services/services.html" class="standard_button" target="_blank" rel="noopener noreferrer">Accédez à nos services</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="https://mail.junoox.net" class="standard_button button_mail" target="_blank" rel="noopener noreferrer">JMail</a>
+                    </li>
+                    <li class="navbar_item services_collapse">
+                        <div class="icon_collapse">
+                            <img class="menu-icon" src="./resources/images/square_menu.png" alt="service_icon" id="openModalIcon">
+                        </div>
+                    </li>
+                </ul>
             </div>
             
            <div id="myModal" class="modal">
@@ -136,7 +134,7 @@
 
                         <div class="products products4">
                             <div class="product_button">
-                                <a href="services.html" class="button-70" target="_blank" rel="noopener noreferrer">Accédez à nos services</a>
+                                <a href="./pages/services/services.html" class="button-70" target="_blank" rel="noopener noreferrer">Accédez à nos services</a>
                             </div>
                         </div>
                     </div>
@@ -192,14 +190,14 @@
     <footer>
         <div class="footer-container">
             <div class="left-links-footer">
-                <a href="a-propos.html" class="menu-footer">A propos</a>   
-                <a href="services.html" class="menu-footer">Services</a>   
-                <a href="produits.html" class="menu-footer">Plateformes et produits</a>
-                 <a href="https://mail.junoox.net" class="menu-footer">JMail</a>
+                <a href="./pages/a-propos.html">A propos</a>   
+                <a href="./pages/services/services.html">Services</a>   
+                <a href="./pages/produits/produits.html">Plateformes et produits</a>
+                 <a href="https://mail.junoox.net">JMail</a>
             </div>
             <div class="right-links-footer">
-                <a href="confidentialite.html" class="menu-footer menu-footer4">Politiques de confidentialités</a>   
-                <a href="cgu.html" class="menu-footer menu-footer5">Termes et conditions</a> 
+                <a href="./pages/terms/confidentialite.html">Politiques de confidentialités</a>   
+                <a href="./pages/terms/cgu.html">Termes et conditions</a> 
             </div>
         </div>
     </footer>
