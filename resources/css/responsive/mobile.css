@@ -1,3 +1,5 @@
+@import url("./landscape.css");
+
 @media (max-width: 249px) {
     header .navbar .navbar_logo {
         width: fit-content;
@@ -12,10 +14,6 @@
     main .search_engine .engine_logo .logo_animate img {
         height: 23%;
 
-    }
-
-    .modal_services {
-        background-color: green;
     }
 
     .modal_services .modal_content_services {
@@ -464,7 +462,7 @@
     }
 
     .modal_content_services .content .products .product .product_name{
-        & a{
+        & a {
             & h4{
                 font-size: 14px !important;
             }

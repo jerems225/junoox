@@ -1,0 +1,31 @@
+/* 
+@media only screen and (max-width: 600px) and (orientation: landscape) {
+    body {
+        background-color: green !important;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(168, 201, 168);
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    body {
+        background-color: rgb(128, 92, 0);
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    body {
+        background-color: rgb(49, 0, 128);
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    body {
+        background-color: rgb(128, 0, 0);
+    }
+  }
+   */
