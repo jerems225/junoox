@@ -1,4 +1,4 @@
-.modal {
+.modal_services {
     display: none;
     position: fixed;
     width: 100%;
@@ -8,7 +8,7 @@
     z-index: 99;
 }
 
-.modal-content {
+.modal_content_services {
     width: 100%;
     height: 100%;
     display: flex;
@@ -18,7 +18,7 @@
     padding-right: 1.5rem;
 }
 
-.modal-content .content{
+.modal_content_services .content{
     width: 15%;
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@
     padding: 20px; 
 }
 
-.modal-content .content .products{
+.modal_content_services .content .products{
     width: 100%;
     height: 25%;
     display: flex;
@@ -40,21 +40,21 @@
 }
 
 
-.modal-content .content .products2{
+.modal_content_services .content .products2{
     margin-top: 15px;
 }
 
-.modal-content .content .products3{
+.modal_content_services .content .products3{
     margin-top: 15px;
 }
 
-.modal-content .content .products4{
+.modal_content_services .content .products4{
     margin-top: 15px;
 }
 
 
 
-.modal-content .content .products .product{
+.modal_content_services .content .products .product{
     width: 30%;
     height: 100%;
     padding: 0rem;
@@ -65,7 +65,7 @@
 
 }
 
-.modal-content .content .products .product .product_image{
+.modal_content_services .content .products .product .product_image{
     width: 100%;
     height: 80%;
     & a {
@@ -82,7 +82,7 @@
     }
 }
 
-.modal-content .content .products .product .product_name{
+.modal_content_services .content .products .product .product_name{
     width: 100%;
     height: 20%;
     & a{
@@ -102,7 +102,7 @@
 }
 
 
-.modal-content .content .products .product_button{
+.modal_content_services .content .products .product_button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,11 +110,11 @@
 }
 
 @media (max-width: 700px){
-    .modal-content {
+    .modal_content_services {
         padding-right: 1rem;
     }
 
-    .modal-content .content{
+    .modal_content_services .content{
         width: 80%;
     }
 }
