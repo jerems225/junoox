@@ -13,6 +13,28 @@
         height: 23%;
 
     }
+
+    .modal_services {
+        background-color: green;
+    }
+
+    .modal_services .modal_content_services {
+        width: 100%;
+
+    }
+
+    .modal_services .modal_content_services .content {
+        width: 90%;
+
+    }
+
+    .modal_content_services .content .products .product .product_name{
+        & a{
+            & h4{
+                font-size: 7px !important;
+            }
+        }
+    }
     
     header .navbar .navbar_links {
         width: 55%;
@@ -70,6 +92,24 @@
         width: 40%;
         display: flex;
         justify-content: flex-end;
+    }
+
+    .modal_services .modal_content_services {
+        width: 100%;
+
+    }
+
+    .modal_services .modal_content_services .content {
+        width: 90%;
+
+    }
+
+    .modal_content_services .content .products .product .product_name{
+        & a{
+            & h4{
+                font-size: 9px !important;
+            }
+        }
     }
 
     footer .footer-container {
@@ -140,6 +180,24 @@
         justify-content: flex-end;
     }
 
+    .modal_services .modal_content_services {
+        width: 100%;
+
+    }
+
+    .modal_services .modal_content_services .content {
+        width: 70%;
+
+    }
+
+    .modal_content_services .content .products .product .product_name{
+        & a{
+            & h4{
+                font-size: 10px !important;
+            }
+        }
+    }
+
 
     footer .footer-container {
         width: 100%;
@@ -188,6 +246,24 @@
         width: 67%;
         display: flex;
         justify-content: flex-end;
+    }
+
+    .modal_services .modal_content_services {
+        width: 100%;
+
+    }
+
+    .modal_services .modal_content_services .content {
+        width: 60%;
+
+    }
+
+    .modal_content_services .content .products .product .product_name{
+        & a{
+            & h4{
+                font-size: 13px !important;
+            }
+        }
     }
 
     main .search_engine .engine_logo .logo_animate img {
@@ -243,6 +319,24 @@
         justify-content: flex-end;
     }
 
+    .modal_services .modal_content_services {
+        width: 100%;
+
+    }
+
+    .modal_services .modal_content_services .content {
+        width: 55%;
+
+    }
+
+    .modal_content_services .content .products .product .product_name{
+        & a{
+            & h4{
+                font-size: 14px !important;
+            }
+        }
+    }
+
     main .search_engine .engine_logo .logo_animate img {
         height: 33%;
     }
@@ -281,8 +375,43 @@
         width: 9%;
     }
 
+    .modal_services .modal_content_services {
+        width: 100%;
+    }
+
+    .modal_services .modal_content_services .content {
+        width: 60% !important;
+
+    }
+
+    .modal_content_services .content .products .product .product_name{
+        & a{
+            & h4{
+                font-size: 14px !important;
+            }
+        }
+    }
+
     main .search_engine .engine_logo .logo_animate img {
         height: 33%;
+    }
+
+    .modal_services .modal_content_services {
+        width: 100%;
+
+    }
+
+    .modal_services .modal_content_services .content {
+        width: 70%;
+
+    }
+
+    .modal_content_services .content .products .product .product_name{
+        & a{
+            & h4{
+                font-size: 14px !important;
+            }
+        }
     }
 
     footer .footer-container {
@@ -322,6 +451,24 @@
 
     header .navbar .navbar_links .navbar_item.services_collapse {
         width: 9%;
+    }
+
+    .modal_services .modal_content_services {
+        width: 100%;
+
+    }
+
+    .modal_services .modal_content_services .content {
+        width: 40%;
+
+    }
+
+    .modal_content_services .content .products .product .product_name{
+        & a{
+            & h4{
+                font-size: 14px !important;
+            }
+        }
     }
     
     footer .footer-container {
