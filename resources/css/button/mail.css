@@ -1,0 +1,79 @@
+.button_mail {
+    margin-right: 14px !important;
+    background-image: linear-gradient(#2c2e83, #0d70ea) !important;
+    border: 0 !important;
+    border-radius: 4px !important;
+    box-shadow: rgba(0, 0, 0, .3) 0 5px 15px !important;
+    box-sizing: border-box !important;
+    color: #fff !important;
+    cursor: pointer !important;
+    font-family: Montserrat, sans-serif !important;
+    font-size: .8em !important;
+    margin: 25px !important;
+    padding: 10px 15px !important;
+    text-align: center !important;
+    user-select: none !important;
+    -webkit-user-select: none !important;
+    touch-action: manipulation !important;
+
+}
+
+
+.button-75 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    height: 35px;
+    line-height: 1;
+    max-width: 100%;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    /* Empêche les retours à la ligne */
+}
+
+
+.button-75:active {
+    outline: 0;
+}
+
+.button-75:hover {
+    outline: 0;
+}
+
+.button-75 span {
+    transition: all 200ms;
+}
+
+.button-75:hover span {
+    transform: scale(.9);
+    opacity: .75;
+}
+
+
+@media screen and (max-width: 991px) {
+    .button-75 {
+        font-size: 12px;
+        height: 30px;
+        display: flex;
+    }
+
+    .button-75 span {
+        line-height: 50px;
+    }
+}
