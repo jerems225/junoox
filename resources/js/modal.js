@@ -5,7 +5,7 @@ var btn = document.querySelector(".menu-icon");
 
 
 btn.onclick = function() {
-    modal.style.display = "block";
+    modal.style.display == "block" ? modal.style.display = "none" : modal.style.display = "block";
 }
 
 window.onclick = function(event) {

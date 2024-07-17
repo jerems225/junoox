@@ -5,8 +5,13 @@
 }
 
 @media (min-width: 250px) and (max-width: 320px) {
-    body {
-       background-color: red;
+    
+    header .navbar .navbar_logo {
+        padding-left: 0.7rem;
+    }
+
+    header .navbar .navbar_logo img{
+        width: 80px;
     }
 
     footer .footer-container {
@@ -15,7 +20,7 @@
         flex-direction: column;
         padding-left: 0.25rem;
         padding-right: 0.25rem;
-        border: 1px solid red;
+
     }
 
     footer .footer-container .left-links-footer {
@@ -42,9 +47,36 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-    body {
-       background-color: rgb(67, 196, 35);
+    header .navbar .navbar_logo {
+        padding-left: 0.7rem;
     }
+
+    header .navbar .navbar_logo img{
+        width: 110px;
+        height: 60%;
+        object-fit: contain;
+    
+    }
+
+    header .navbar .navbar_links {
+        width: 67%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    header .navbar .navbar_links .navbar_items {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+
+    header .navbar .navbar_links .navbar_item.services_collapse {
+        width: 15%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
 
     footer .footer-container {
         width: 100%;
@@ -52,7 +84,7 @@
         flex-direction: column;
         padding-left: 0.5rem;
         padding-right: 0.5rem;
-        border: 1px solid red;
+
     }
 
     footer .footer-container .left-links-footer {
@@ -79,8 +111,15 @@
 }
 
 @media (min-width: 480px) and (max-width: 576px) {
-    body {
-       background-color: rgb(50, 5, 127);
+    header .navbar .navbar_logo {
+        padding-left: 0.7rem;
+    }
+
+     header .navbar .navbar_links .navbar_item.services_collapse {
+        width: 17%;
+        display: flex;
+        justify-content: flex-end;
+
     }
 
     footer .footer-container {
@@ -89,14 +128,14 @@
         flex-direction: column;
         padding-left: 0.5rem;
         padding-right: 0.5rem;
-        border: 1px solid red;
+
     }
 
     footer .footer-container .left-links-footer {
         width: 100%;
         display: flex;
         justify-content: center;
-        gap: 0.5rem;
+        gap: 1.7rem;
     }
 
     footer .footer-container .left-links-footer a {
@@ -107,7 +146,7 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        gap: 0.5rem;
+        gap: 3rem;
     }
 
     footer .footer-container .right-links-footer a {
@@ -117,8 +156,13 @@
 
 
 @media (min-width: 576px) and (max-width: 768px) {
-    body {
-       background-color: rgb(209, 89, 24);
+    header .navbar .navbar_logo {
+        padding-left: 0.7rem;
+    }
+
+    header .navbar .navbar_links .navbar_item.services_collapse {
+        width: 11%;
+
     }
 
     footer .footer-container {
@@ -147,28 +191,67 @@
 }
 
 @media (min-width: 768px) and (max-width: 992px){
-    body {
-        background-color: rgb(46, 8, 8);
+    header .navbar .navbar_logo {
+        padding-left: 0.7rem;
+    }
+
+    header .navbar .navbar_links .navbar_item.services_collapse {
+        width: 9%;
     }
 
     footer .footer-container {
         width: 100%;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     footer .footer-container .left-links-footer {
-        width: 50%;
+        width: 49%;
+        display: flex;
+        justify-content: center;
         gap: 1rem;
+
     }
 
     footer .footer-container .right-links-footer {
-        width: 50%;
+        width: 49%;
+        justify-content: center;
         gap: 1rem;
+
+    }
+
+    footer .footer-container .left-links-footer a {
+        font-size: 13px;
+    }
+
+    footer .footer-container .right-links-footer a {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+    header .navbar .navbar_logo {
+        padding-left: 0.7rem;
+    }
+
+    header .navbar .navbar_links .navbar_item.services_collapse {
+        width: 9%;
+    }
+    
+    footer .footer-container {
+        width: 90%;
+    }
+
+    footer .footer-container .left-links-footer {
+        width: 42%;
     }
 
     footer .footer-container .left-links-footer a {
         font-size: 14px;
+    }
+
+    footer .footer-container .right-links-footer {
+        width: 42%;
     }
 
     footer .footer-container .right-links-footer a {
@@ -176,28 +259,8 @@
     }
 }
 
-@media (min-width: 992px) and (max-width: 1400px) {
-    body {
-        background-color: rgb(173, 173, 24);
-    }
-
-    footer .footer-container {
-        width: 100%;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-    }
-
-    footer .footer-container .left-links-footer {
-        width: 50%;
-    }
-
-    footer .footer-container .right-links-footer {
-        width: 50%;
-    }
-}
-
 @media (min-width: 1400px)  {
-    body {
-        background-color: rgb(167, 252, 185)
+    header .navbar .navbar_logo {
+        padding-left: 0.7rem;
     }
 }
