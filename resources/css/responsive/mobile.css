@@ -1,4 +1,4 @@
-@media (max-width: 250px) {
+@media (max-width: 249px) {
     header .navbar .navbar_logo {
         width: fit-content;
         padding-left: 0.7rem;
@@ -38,7 +38,7 @@
     }
 }
 
-@media (min-width: 250px) and (max-width: 319px) {
+@media (min-width: 249px) and (max-width: 319px) {
     
     header .navbar .navbar_logo {
         width: fit-content;
@@ -104,7 +104,7 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 481px) {
+@media (min-width: 319px) and (max-width: 481px) {
     header .navbar .navbar_logo {
         padding-left: 0.7rem;
     }
