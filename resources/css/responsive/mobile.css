@@ -1,0 +1,93 @@
+/* Small screens (phones, portrait 600px and below) */
+@media(min-width: 389px) and (max-width: 600px) {
+   
+    .footer-container {
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-start;
+        align-items:center;
+        width:100%;
+    }
+    
+    
+    
+    .left-links-footer{
+        display:flex;
+        justify-content:flex-start;
+        align-items:center;
+        width:100%;
+        font-size:16px;
+        gap:10px;
+    }
+    
+    .right-links-footer {
+        display:flex;
+       justify-content:flex-start;
+       align-items:center;
+       width:100%;
+       font-size:16px;
+    }
+
+}
+
+@media(min-width: 200px) and (max-width: 389px) {
+   
+    .footer-container {
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-start;
+        align-items:center;
+        width:100%;
+    }
+    
+    
+    
+    .left-links-footer{
+        display:flex;
+        justify-content:flex-start;
+        align-items:center;
+        width:100%;
+        font-size:16px;
+        gap:10px;
+    }
+    
+    .right-links-footer {
+        display:flex;
+       justify-content:flex-start;
+       align-items:center;
+       width:100%;
+       font-size:14px;
+    }
+
+}
+
+
+
+
+/* Medium screens (tablets, 601px to 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+   
+}
+
+/* Large screens (desktops, 901px to 1200px) */
+@media (min-width: 901px) and (max-width: 1200px) {
+   
+}
+
+/* Extra large screens (1201px and above) */
+@media (min-width: 1201px) {
+    
+}
+
+/* Landscape mode */
+@media (orientation: landscape) {
+   
+}
+
+/* Custom media query for specific landscape mode */
+@media (max-width: 985px) and (orientation: landscape) {
+    
+
+
+
+}
