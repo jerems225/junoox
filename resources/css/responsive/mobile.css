@@ -214,6 +214,11 @@
     footer .footer-container .right-links-footer a {
         font-size: 10px;
     }
+
+    .products4 .standard_button{
+        font-size: .6em;
+        padding: 5px 10px;
+    }
 }
 
 @media (min-width: 319px) and (max-width: 481px) {
