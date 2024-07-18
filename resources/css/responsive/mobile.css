@@ -258,7 +258,7 @@
     }
 
     .modal_services .modal_content_services .content {
-        width: 70%;
+        width: 80%;
 
     }
 
@@ -382,7 +382,7 @@
 }
 
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 767px) {
     header .navbar .navbar_logo {
         padding-left: 0.7rem;
     }
@@ -469,7 +469,8 @@
     }
 
     .modal_services .modal_content_services .content {
-        width: 60% !important;
+        width: 50% !important;
+        height: 50% !important;
 
     }
 
@@ -548,7 +549,7 @@
     }
 
     .modal_services .modal_content_services .content {
-        width: 40%;
+        width: 35%;
 
     }
 
@@ -558,6 +559,10 @@
                 font-size: 14px !important;
             }
         }
+    }
+
+    .product_image img{
+        width: 45% !important;
     }
     
     footer .footer-container {
