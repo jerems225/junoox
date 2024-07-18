@@ -109,13 +109,13 @@ header .navbar .navbar_links .navbar_item.services_collapse .icon_collapse {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    border: 1px solid red;
+    border: 1px solid rgb(0, 102, 255);
     & img {
         width: 40px;
         height: 40px;
         object-fit: contain;
         cursor: pointer;
-        border: 1px solid red;
+        border: 1px solid rgb(0, 255, 98)(0, 255, 13);
     }
 }
 
