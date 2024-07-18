@@ -109,7 +109,7 @@ header .navbar .navbar_links .navbar_item.services_collapse .icon_collapse {
     justify-content: center;
     align-items: center;
     border: 1px solid red;
-    & img {
+    & svg {
         width: 180px;
         height: 55%;
         object-fit: contain;
