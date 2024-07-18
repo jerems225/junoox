@@ -1,6 +1,9 @@
 @import url("./landscape.css");
 
 @media (min-width: 100px) and (max-width: 202px) {
+    body {
+        background-color : rgb(133, 126, 126) !important;
+    }
     header .navbar .navbar_logo {
         width: fit-content;
         padding-left: 0rem;
@@ -26,12 +29,8 @@
 
     }
 
-    .modal_content_services .content .products .product .product_name{
-        & a{
-            & h4{
-                font-size: 7px !important;
-            }
-        }
+    .modal_content_services .content .products .product .product_name a h4 {
+        font-size: 7px !important;
     }
     
     header .navbar .navbar_links {
@@ -50,28 +49,25 @@
         display: flex;
         justify-content: flex-end;
     }
+
     .engine_logo h3 {
         font-size: 12px;
     }
+
     footer {
         display: none;
     }
 
-
-    /* style pour le modal */
     .products4 .standard_button{
         font-size: .6em;
         padding: 5px 10px;
     }
-
-   
 }
 
 @media (min-width: 203px) and (max-width: 249px) {
     header .navbar .navbar_logo {
         width: fit-content;
-        padding-left: 0.7rem;
-
+        padding-left: 10px;
     }
 
     header .navbar .navbar_logo img{
@@ -80,25 +76,18 @@
     
     main .search_engine .engine_logo .logo_animate img {
         height: 23%;
-
     }
 
     .modal_services .modal_content_services {
         width: 100%;
-
     }
 
     .modal_services .modal_content_services .content {
         width: 90%;
-
     }
 
-    .modal_content_services .content .products .product .product_name{
-        & a{
-            & h4{
-                font-size: 7px !important;
-            }
-        }
+    .modal_content_services .content .products .product .product_name a h4 {
+        font-size: 7px !important;
     }
     
     header .navbar .navbar_links {
@@ -117,9 +106,11 @@
         display: flex;
         justify-content: flex-end;
     }
+
     .engine_logo h3 {
         font-size: 12px;
     }
+
     footer {
         display: none;
     }
@@ -176,20 +167,14 @@
 
     }
 
-    .modal_content_services .content .products .product .product_name{
-        & a{
-            & h4{
-                font-size: 9px !important;
-            }
-        }
+    .modal_content_services .content .products .product .product_name a h4 {
+        font-size: 7px !important;
     }
 
     footer .footer-container {
         width: 100%;
         display: flex;
         flex-direction: column;
-        padding-left: 0.25rem;
-        padding-right: 0.25rem;
 
     }
 
@@ -197,22 +182,24 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        gap: 0.3rem;
+
     }
 
     footer .footer-container .left-links-footer a {
         font-size: 10px;
+        margin-left: 7px !important;
     }
 
     footer .footer-container .right-links-footer {
         width: 100%;
         display: flex;
         justify-content: center;
-        gap: 0.3rem;
+        text-align: center;
     }
 
     footer .footer-container .right-links-footer a {
-        font-size: 10px;
+        font-size: 9px;
+        margin-right: 6px !important;
     }
 
     .products4 .standard_button{
@@ -290,22 +277,22 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        gap: 0.5rem;
     }
 
     footer .footer-container .left-links-footer a {
         font-size: 12px;
+        margin-left: 7px !important;
     }
 
     footer .footer-container .right-links-footer {
         width: 100%;
         display: flex;
         justify-content: center;
-        gap: 0.5rem;
     }
 
     footer .footer-container .right-links-footer a {
-        font-size: 12px;
+        font-size: 10px;
+        margin-right: 7px !important;
     }
 
     /* style pour le modal */
@@ -340,17 +327,12 @@
     }
 
     .modal_services .modal_content_services .content {
-        /* width: 60%; */
         width: 250px;
 
     }
 
-    .modal_content_services .content .products .product .product_name{
-        & a{
-            & h4{
-                font-size: 11px !important;
-            }
-        }
+    .modal_content_services .content .products .product .product_name a h4{
+        font-size: 11px !important;
     }
 
     main .search_engine .engine_logo .logo_animate img {
@@ -362,7 +344,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        padding-left: 0.5rem;
+        padding-left: 0rem;
         padding-right: 0.5rem;
 
     }
@@ -375,7 +357,7 @@
     }
 
     footer .footer-container .left-links-footer a {
-        font-size: 13px;
+        font-size: 11px;
     }
 
     footer .footer-container .right-links-footer {
@@ -386,7 +368,7 @@
     }
 
     footer .footer-container .right-links-footer a {
-        font-size: 12px;
+        font-size: 11px;
     }
 }
 
@@ -412,18 +394,13 @@
     }
 
     .modal_services .modal_content_services .content {
-        /* width: 45%; */
         width: 250px !important;
 
     }
 
-    .modal_content_services .content .products .product .product_name{
-        & a{
-            & h4{
-                font-size: 11px !important;
-                padding-bottom: 1rem !important;
-            }
-        }
+    .modal_content_services .content .products .product .product_name  a h4{
+        font-size: 12px !important;
+        padding-bottom: 1rem !important;
     }
 
     main .search_engine .engine_logo .logo_animate img {
@@ -432,37 +409,31 @@
 
     footer .footer-container {
         width: 100%;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     footer .footer-container .left-links-footer {
         width: 50%;
-        gap: 0.5rem;
     }
 
     footer .footer-container .right-links-footer {
         width: 50%;
-        gap: 0.5rem;
     }
 
     footer .footer-container .left-links-footer a {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     footer .footer-container .right-links-footer a {
-        font-size: 11px;
+        font-size: 9px;
     }
-
-   
-    
-    
 }
 
 
 @media (min-width: 768px) and (max-width: 992px){
     header .navbar .navbar_logo {
-        padding-left: 0.7rem;
+        padding-left: 7px;
     }
 
     header .navbar .navbar_links .navbar_item.services_collapse {
@@ -493,41 +464,33 @@
 
     }
 
-    .modal_content_services .content .products .product .product_name{
-        & a{
-            & h4{
-                font-size: 11px !important;
-            }
-        }
+    .modal_content_services .content .products .product .product_name a h4 {
+        font-size: 11px !important;
     }
 
     footer .footer-container {
         width: 100%;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     footer .footer-container .left-links-footer {
         width: 49%;
         display: flex;
         justify-content: center;
-        gap: 1rem;
-
     }
 
     footer .footer-container .right-links-footer {
         width: 49%;
         justify-content: center;
-        gap: 1rem;
-
     }
 
     footer .footer-container .left-links-footer a {
-        font-size: 13px;
+        font-size: 11px;
     }
 
     footer .footer-container .right-links-footer a {
-        font-size: 13px;
+        font-size: 11px;
     }
 }
 

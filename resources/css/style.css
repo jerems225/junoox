@@ -158,7 +158,7 @@ main .search_engine .engine_logo .logo_animate {
 }
 
 main .search_engine .engine_logo .logo_animate img {
-    width: 80%;
+    width: fit-content;
     height: 65%;
     object-fit: contain;
     margin: 5px;
