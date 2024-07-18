@@ -114,6 +114,7 @@ header .navbar .navbar_links .navbar_item.services_collapse .icon_collapse {
         height: 55%;
         object-fit: contain;
         cursor: pointer;
+        border: 1px solid red;
     }
 }
 
