@@ -1,6 +1,73 @@
 @import url("./landscape.css");
 
-@media (max-width: 249px) {
+@media (min-width: 100px) and (max-width: 202px) {
+    header .navbar .navbar_logo {
+        width: fit-content;
+        padding-left: 0rem;
+
+    }
+
+    header .navbar .navbar_logo img{
+        width: 80px;
+    }
+    
+    main .search_engine .engine_logo .logo_animate img {
+        height: 23%;
+
+    }
+
+    .modal_services .modal_content_services {
+        width: 100%;
+
+    }
+
+    .modal_services .modal_content_services .content {
+        width: 90%;
+
+    }
+
+    .modal_content_services .content .products .product .product_name{
+        & a{
+            & h4{
+                font-size: 7px !important;
+            }
+        }
+    }
+    
+    header .navbar .navbar_links {
+        width: 55%;
+        overflow: hidden;
+
+    }
+    header .navbar .navbar_links .navbar_items {
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+    header .navbar .navbar_links .navbar_item.services_collapse {
+        width: 40%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .engine_logo h3 {
+        font-size: 12px;
+    }
+    footer {
+        display: none;
+    }
+
+
+    /* style pour le modal */
+    .products4 .standard_button{
+        font-size: .6em;
+        padding: 5px 10px;
+    }
+
+   
+}
+
+@media (min-width: 203px) and (max-width: 249px) {
     header .navbar .navbar_logo {
         width: fit-content;
         padding-left: 0.7rem;
@@ -55,6 +122,13 @@
     }
     footer {
         display: none;
+    }
+
+
+    /* style pour le modal */
+    .products4 .standard_button{
+        font-size: .6em;
+        padding: 5px 10px;
     }
 }
 
@@ -227,6 +301,12 @@
     footer .footer-container .right-links-footer a {
         font-size: 12px;
     }
+
+    /* style pour le modal */
+    .products4 .standard_button{
+        font-size: .6em;
+        padding: 5px 10px;
+    }
 }
 
 @media (min-width: 480px) and (max-width: 576px) {
@@ -323,14 +403,15 @@
     }
 
     .modal_services .modal_content_services .content {
-        width: 55%;
+        width: 45%;
 
     }
 
     .modal_content_services .content .products .product .product_name{
         & a{
             & h4{
-                font-size: 14px !important;
+                font-size: 12px !important;
+                padding-bottom: 0rem !important;
             }
         }
     }
@@ -362,7 +443,17 @@
     footer .footer-container .right-links-footer a {
         font-size: 11px;
     }
+
+    .product_image img {
+        width: 30% !important;
+    }
+    
+    .standard_button{
+        font-size: .7em;
+    }
+    
 }
+
 
 @media (min-width: 768px) and (max-width: 992px){
     header .navbar .navbar_logo {
@@ -500,3 +591,5 @@
         padding-left: 0.7rem;
     }
 }
+
+
