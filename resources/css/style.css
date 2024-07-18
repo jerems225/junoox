@@ -41,7 +41,7 @@ body {
 header {
     width: 100%;
     height: 10vh;
-
+    border: 1px solid red;
 }
 
 header .navbar {
@@ -49,7 +49,7 @@ header .navbar {
     height: 100%;
     display: flex;
     align-items: center;
-
+    border: 1px solid red;
 }
 
 header .navbar .navbar_logo {
@@ -72,7 +72,7 @@ header .navbar .navbar_links {
     width: 70%;
     height: 100%;
     display: flex;
-
+    border: 1px solid red;
 }
 
 header .navbar .navbar_links .navbar_items {
@@ -80,6 +80,7 @@ header .navbar .navbar_links .navbar_items {
     height: 100%;
     display: flex;
     justify-content: flex-end;
+    border: 1px solid red;
 }
 
 header .navbar .navbar_links .navbar_items .navbar_item {
@@ -87,7 +88,7 @@ header .navbar .navbar_links .navbar_items .navbar_item {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    border: 1px solid red;
     & a.standard_button {
         margin-left: 1.5rem;
     }
@@ -98,7 +99,7 @@ header .navbar .navbar_links .navbar_item.services_collapse {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
+    border: 1px solid red;
 }
 
 header .navbar .navbar_links .navbar_item.services_collapse .icon_collapse {
@@ -107,6 +108,7 @@ header .navbar .navbar_links .navbar_item.services_collapse .icon_collapse {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid red;
     & img {
         width: 180px;
         height: 55%;
