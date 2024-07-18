@@ -42,6 +42,7 @@ header {
     width: 100%;
     height: 10vh;
     border: 1px solid red;
+    overflow: hidden;
 }
 
 header .navbar {
@@ -97,7 +98,7 @@ header .navbar .navbar_links .navbar_items .navbar_item {
 header .navbar .navbar_links .navbar_item.services_collapse {
     width: 5%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     border: 1px solid red;
 }
@@ -106,12 +107,12 @@ header .navbar .navbar_links .navbar_item.services_collapse .icon_collapse {
     width: 100%;
     height: 70%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     border: 1px solid red;
-    & svg {
-        width: 180px;
-        height: 55%;
+    & img {
+        width: 40px;
+        height: 40px;
         object-fit: contain;
         cursor: pointer;
         border: 1px solid red;
