@@ -155,12 +155,13 @@ main .search_engine .engine_logo .logo_animate {
     justify-content: center;
     align-items: flex-end;
     padding-right: 0px !important;
-    & img {
-        width: fit-content;
-        height: 65%;
-        object-fit: contain;
-        margin: 0.12rem;
-    }
+}
+
+main .search_engine .engine_logo .logo_animate img {
+    width: fit-content;
+    height: 65%;
+    object-fit: contain;
+    margin: 5px;
 }
 
 main .search_engine .engine_input_search {
@@ -521,13 +522,12 @@ footer .footer-container .left-links-footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 13px;
-
 }
 
 footer .footer-container .left-links-footer a {
     color: white;
     font-size: 15px;
+    margin-left: 15px !important;
 }
 
 footer .footer-container .right-links-footer {
@@ -536,12 +536,12 @@ footer .footer-container .right-links-footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 13px;
 }
 
 footer .footer-container .right-links-footer a {
     color: white;
     font-size: 15px;
+    margin-right: 15px !important;
 }
 
 
