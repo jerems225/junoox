@@ -748,6 +748,11 @@ section,
   z-index: 3;
 }
 
+.hero-container .hero-image {
+  background-color: #00000061 !important;
+  z-index: 99 !important;
+}
+
 .hero h2 {
   color: var(--contrast-color);
   margin: 0;
