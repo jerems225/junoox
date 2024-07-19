@@ -119,6 +119,12 @@ header .navbar .navbar_links .navbar_item.services_collapse .icon_collapse img {
     cursor: pointer;
 }
 
+.banner {
+    width: 100%;
+    height: 30%;
+    border: 1px solid red;
+}
+
 main {
     width: 100%;
     height: 80vh;
