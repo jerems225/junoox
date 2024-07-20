@@ -14,8 +14,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    padding-top: 0.5rem;
-    padding-right: 1.5rem;
+    padding-top: 10px;
+    padding-right: 15px;
 }
 
 .modal_content_services .content{

@@ -1,0 +1,116 @@
+:root {
+    --primary-color: #2c2e83;
+    --secondary-color: #d10303;
+}
+
+
+::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+}
+
+
+body {
+    width: 100%;
+    min-height: none !important;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+}
+
+.modal_content_services  {
+    padding-top: 11vh !important;
+}
+
+main {
+    width: 100%;
+    min-height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+main .banner {
+    width: 100%;
+    min-height: 65%;
+    display: flex;
+    margin-top: 10vh;
+}
+
+main .banner .banner_image {
+    width: 45%;
+    height: 100%;
+    background-image: url('../../images/services/about_bg.jpg');
+    background-size: cover;
+    background-position : center center;
+}
+
+main .banner .banner_image .overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.453);
+}
+
+main .banner .banner_image .overlay h3{
+    font-size: 31px;
+    font-weight: 700;
+    color: white;
+}
+
+main .banner .banner_text {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .banner .banner_text .text_zone {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .banner .banner_text .text_zone .title {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 34px;
+    color: var(--primary-color);
+}
+
+main .banner .banner_text .text_zone .text {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 12px;
+    line-height: 24px;
+}
+
+footer {
+    position: none;
+    bottom: 0;
+    width: 100%;
+    height: none;
+    background-color: #353636;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 199;
+}

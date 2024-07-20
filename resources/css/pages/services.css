@@ -1,0 +1,7 @@
+main .banner{
+    display: flex;
+    flex-direction: row-reverse !important;
+}
+main .banner .banner_image{
+    background-image: url('../../images/services/services.jpg') !important;
+}
