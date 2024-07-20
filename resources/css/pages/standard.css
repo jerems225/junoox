@@ -94,6 +94,8 @@ main .banner .banner_text .text_zone .title {
     color: var(--primary-color);
 }
 
+
+
 main .banner .banner_text .text_zone .text {
     font-size: 15px;
     font-weight: 400;
@@ -101,6 +103,25 @@ main .banner .banner_text .text_zone .text {
     margin-top: 12px;
     line-height: 24px;
 }
+
+
+
+
+main .services h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+main .text h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+
 
 footer {
     position: none;
