@@ -5,3 +5,80 @@ main .banner{
 main .banner .banner_image{
     background-image: url('../../images/services/cgu.jpg') !important;
 }
+
+main .terms {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+main .terms .accordion {
+    width: 70%;
+    min-height: 500px;
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+
+main .terms .accordion .accordion-item {
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.052) 0px 4px 12px;
+
+}
+
+main .terms .accordion .accordion-item:hover {
+    border: 2px solid var(--primary-color);
+}
+
+main .terms .accordion .accordion-item .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 30px;
+    cursor: pointer;
+}
+
+main .terms .accordion .accordion-item .accordion-header .accordion-title {
+    font-size: 19px;
+    font-weight: 500;
+    margin: 0;
+    color: var(--secondary-color)
+}
+
+main .terms .accordion .accordion-item .accordion-content {
+    max-height: 0;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 10px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+main .terms .accordion .accordion-item .accordion-content p {
+    padding: 5px;
+    color: var(--primary-color);
+}
+
+main .terms .accordion .accordion-item .accordion-content p span {
+    font-weight: 600;
+}
+
+main .terms .accordion .accordion-item.active .accordion-content {
+    max-height: 500px;
+    padding: 10px;
+}
+
+main .terms .accordion .accordion-toggle {
+    background-color: #fff;
+    border: none;
+}
+main .terms .accordion .accordion-item.active .accordion-toggle {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease-in-out;
+}

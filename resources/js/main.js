@@ -53,9 +53,44 @@ document.addEventListener("DOMContentLoaded", function () {
     var query = searchInput.value.trim();
     redirectToSearchResults(query);
   });
-
-
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  const accordionItems = document.querySelectorAll(".accordion-item");
+
+  accordionItems.forEach(item => {
+      const header = item.querySelector(".accordion-header");
+      header.addEventListener("click", () => {
+          const content = item.querySelector(".accordion-content");
+
+          if (item.classList.contains("active")) {
+              content.style.maxHeight = null;
+              content.style.padding = "0 10px"; // Enlever le padding vertical
+              item.classList.remove("active");
+          } else {
+              // Ferme tous les autres items
+              accordionItems.forEach(accItem => {
+                  const accContent = accItem.querySelector(".accordion-content");
+                  if (accItem !== item && accItem.classList.contains("active")) {
+                      accContent.style.maxHeight = null;
+                      accContent.style.padding = "0 10px"; // Enlever le padding vertical
+                      accItem.classList.remove("active");
+                  }
+              });
+
+              // Ouvre l'item cliqué
+              content.style.maxHeight = content.scrollHeight + "0px";
+              content.style.padding = "10px"; // Ajouter le padding vertical
+              item.classList.add("active");
+          }
+      });
+  });
+});
+
+
+
+
 
 
 
