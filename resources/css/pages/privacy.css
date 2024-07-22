@@ -56,6 +56,15 @@ main .privacy .accordion .accordion-item .accordion-content {
     transition: max-height 0.3s ease, padding 0.3s ease;
 }
 
+main .privacy .accordion .accordion-item .accordion-content p {
+    padding: 5px;
+    color: var(--primary-color);
+}
+
+main .privacy .accordion .accordion-item .accordion-content p span {
+    font-weight: 600;
+}
+
 main .privacy .accordion .accordion-item.active .accordion-content {
     max-height: 500px;
     padding: 10px;
