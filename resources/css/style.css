@@ -577,7 +577,7 @@ footer .footer-container .right-links-footer a {
         width: 50%;
     }
 
-    header .navbar .navbar_links .navbar_items .navbar_item.services {
+    header .navbar .navbar_links .navbar_items .navbar_items.services {
         display: none;
     }
 
