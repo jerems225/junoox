@@ -4,6 +4,47 @@
     body {
         background-color : rgb(133, 126, 126) !important;
     }
+
+    header {
+        overflow: visible !important;
+    }
+
+    header .navbar {
+        display: flex;
+        justify-content: space-between !important;
+    }
+
+    header .navbar .navbar_links .navbar_services_links {
+        position: absolute;
+        top: -500%;
+        width: 100% !important;
+        height: 200px !important;
+        display: flex;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+        background-color: #ffffff;
+    }
+
+    header .navbar .navbar_links .navbar_services_links .navbar_item {
+        margin-bottom: 10px;
+
+    }
+
+    header .navbar .navbar_links .navbar_items .navbar_item:nth-child(1) {
+        display: flex;
+    }
+    header .navbar .navbar_links .navbar_services_links.active {
+        top: 100%;
+    }
+
+    header .navbar .navbar_links .navbar_items .navbar_item#menu_dropdown_icon {
+        display: flex;
+    }
+
     header .navbar .navbar_logo {
         width: fit-content;
         padding-left: 0rem;
@@ -45,9 +86,10 @@
     }
 
     header .navbar .navbar_links .navbar_item.services_collapse {
-        width: 40%;
+        width: 30%;
         display: flex;
         justify-content: flex-end;
+        padding-right: 10px;
     }
 
     .engine_logo h3 {
@@ -64,7 +106,47 @@
     }
 }
 
-@media (min-width: 203px) and (max-width: 249px) {
+@media (min-width: 202px) and (max-width: 249px) {
+    header {
+        overflow: visible !important;
+    }
+
+    header .navbar {
+        display: flex;
+        justify-content: space-between !important;
+    }
+
+    header .navbar .navbar_links .navbar_services_links {
+        position: absolute;
+        top: -500%;
+        width: 100% !important;
+        height: 200px !important;
+        display: flex;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+        background-color: #ffffff;
+    }
+
+    header .navbar .navbar_links .navbar_services_links .navbar_item {
+        margin-bottom: 10px;
+
+    }
+
+    header .navbar .navbar_links .navbar_items .navbar_item:nth-child(1) {
+        display: flex;
+    }
+    header .navbar .navbar_links .navbar_services_links.active {
+        top: 100%;
+    }
+
+    header .navbar .navbar_links .navbar_items .navbar_item#menu_dropdown_icon {
+        display: flex;
+    }
+    
     header .navbar .navbar_logo {
         width: fit-content;
         padding-left: 10px;
@@ -102,9 +184,10 @@
     }
 
     header .navbar .navbar_links .navbar_item.services_collapse {
-        width: 40%;
+        width: 30%;
         display: flex;
         justify-content: flex-end;
+        padding-right: 10px;
     }
 
     .engine_logo h3 {
@@ -124,10 +207,49 @@
 }
 
 @media (min-width: 249px) and (max-width: 318px) {
-    
+    header {
+        overflow: visible !important;
+    }
+
+    header .navbar {
+        display: flex;
+        justify-content: space-between !important;
+    }
+
+    header .navbar .navbar_links .navbar_services_links {
+        position: absolute;
+        top: -500%;
+        width: 100% !important;
+        height: 200px !important;
+        display: flex;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+        background-color: #ffffff;
+    }
+
+    header .navbar .navbar_links .navbar_services_links .navbar_item {
+        margin-bottom: 10px;
+
+    }
+
+    header .navbar .navbar_links .navbar_items .navbar_item:nth-child(1) {
+        display: flex;
+    }
+    header .navbar .navbar_links .navbar_services_links.active {
+        top: 100%;
+    }
+
+    header .navbar .navbar_links .navbar_items .navbar_item#menu_dropdown_icon {
+        display: flex;
+    }
+
     header .navbar .navbar_logo {
         width: fit-content;
-        padding-left: 0.7rem;
+        padding-left: 10px;
     }
 
     header .navbar .navbar_logo img{
@@ -148,13 +270,13 @@
     header .navbar .navbar_links .navbar_items {
         display: flex;
         justify-content: flex-end;
-
     }
 
     header .navbar .navbar_links .navbar_item.services_collapse {
-        width: 40%;
+        width: 30%;
         display: flex;
         justify-content: flex-end;
+        padding-right: 10px;
     }
 
     .modal_services .modal_content_services {
@@ -208,27 +330,44 @@
     }
 }
 
-@media (min-width: 319px) and (max-width: 479px) {
+@media (min-width: 318px) and (max-width: 479px) {
     header {
-        background-color: #ffffff !important;
+        overflow: visible !important;
     }
-
-    header .navbar .navbar_links .navbar_items .navbar_services_links {
+    header .navbar .navbar_links .navbar_services_links {
         position: absolute;
         top: -500%;
+        width: 100% !important;
+        height: 200px !important;
+        display: flex;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+        background-color: #ffffff;
     }
 
-    header .navbar .navbar_links .navbar_items .navbar_services_links.acitve {
+    header .navbar .navbar_links .navbar_services_links .navbar_item {
+        margin-bottom: 10px;
+
+    }
+
+    header .navbar .navbar_links .navbar_items .navbar_item:nth-child(1) {
         display: flex;
-        top: 200%;
+    }
+    header .navbar .navbar_links .navbar_services_links.active {
+        top: 100%;
     }
 
     header .navbar .navbar_links .navbar_items .navbar_item#menu_dropdown_icon {
         display: flex;
+
     }
     
     header .navbar .navbar_logo {
-        padding-left: 0.7rem;
+        padding-left: 10px;
     }
 
     header .navbar .navbar_logo img{
@@ -320,19 +459,73 @@
     }
 }
 
-@media (min-width: 480px) and (max-width: 575px) {
-    header .navbar .navbar_logo {
-        padding-left: 0.7rem;
+@media (min-width: 479px) and (max-width: 575px) {
+    header {
+        overflow: visible !important;
+    }
+    header .navbar .navbar_links .navbar_services_links {
+        position: absolute;
+        top: -500%;
+        width: 100% !important;
+        height: 200px !important;
+        display: flex;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+        background-color: #ffffff;
     }
 
-     header .navbar .navbar_links .navbar_item.services_collapse {
-        width: 17%;
+    header .navbar .navbar_links .navbar_services_links .navbar_item {
+        margin-bottom: 10px;
+
+    }
+
+    header .navbar .navbar_links .navbar_items .navbar_item:nth-child(1) {
         display: flex;
-        justify-content: flex-end;
+    }
+    header .navbar .navbar_links .navbar_services_links.active {
+        top: 100%;
+    }
+
+    header .navbar .navbar_links .navbar_items .navbar_item#menu_dropdown_icon {
+        display: flex;
+
+    }
+    
+    header .navbar .navbar_logo {
+        padding-left: 10px;
+    }
+
+    header .navbar .navbar_logo img{
+        width: 110px;
+        height: 60%;
+        object-fit: contain;
+    }
+
+    main .search_engine .engine_logo .logo_animate img {
+        height: 33%;
+
     }
 
     header .navbar .navbar_links {
         width: 67%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    header .navbar .navbar_links .navbar_items {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+
+    header .navbar .navbar_links .navbar_item.services_collapse {
+        width: 15%;
         display: flex;
         justify-content: flex-end;
     }
@@ -388,17 +581,74 @@
     }
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-    header .navbar .navbar_logo {
-        padding-left: 0.7rem;
+@media (min-width: 575px) and (max-width: 767px) {
+
+    header {
+        overflow: visible !important;
+    }
+    header .navbar .navbar_links .navbar_services_links {
+        position: absolute;
+        top: -500%;
+        width: 100% !important;
+        height: 200px !important;
+        display: flex;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+        background-color: #ffffff;
     }
 
-    header .navbar .navbar_links .navbar_item.services_collapse {
-        width: 11%;
+    header .navbar .navbar_links .navbar_services_links .navbar_item {
+        margin-bottom: 10px;
+
+    }
+
+    header .navbar .navbar_links .navbar_items .navbar_item:nth-child(1) {
+        display: flex;
+    }
+    header .navbar .navbar_links .navbar_services_links.active {
+        top: 100%;
+    }
+
+    header .navbar .navbar_links .navbar_items .navbar_item#menu_dropdown_icon {
+        display: flex;
+
+    }
+    
+    header .navbar .navbar_logo {
+        padding-left: 10px;
+    }
+
+    header .navbar .navbar_logo img{
+        width: 110px;
+        height: 60%;
+        object-fit: contain;
+    }
+
+    main .search_engine .engine_logo .logo_animate img {
+        height: 33%;
+
     }
 
     header .navbar .navbar_links {
         width: 67%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    header .navbar .navbar_links .navbar_items {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+
+    header .navbar .navbar_links .navbar_item.services_collapse {
+        width: 15%;
         display: flex;
         justify-content: flex-end;
     }
@@ -446,13 +696,60 @@
 }
 
 
-@media (min-width: 768px) and (max-width: 992px){
-    header .navbar .navbar_logo {
-        padding-left: 7px;
+@media (min-width: 767px) and (max-width: 992px){
+    
+    header {
+        overflow: visible !important;
     }
 
-    header .navbar .navbar_links .navbar_item.services_collapse {
-        width: 9%;
+    header .navbar {
+        display: flex;
+        justify-content: space-between !important;
+    }
+
+    header .navbar .navbar_links .navbar_services_links {
+        position: absolute;
+        top: -500%;
+        width: 100% !important;
+        height: 200px !important;
+        display: flex;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+        background-color: #ffffff;
+    }
+
+    header .navbar .navbar_links .navbar_services_links .navbar_item {
+        margin-bottom: 10px;
+
+    }
+
+    header .navbar .navbar_links .navbar_items {
+        width: 95%;
+    
+    }
+
+    header .navbar .navbar_links .navbar_items .navbar_item:nth-child(1) {
+        display: flex;
+    }
+    header .navbar .navbar_links .navbar_services_links.active {
+        top: 100%;
+    }
+
+    header .navbar .navbar_links .navbar_items .navbar_item#menu_dropdown_icon {
+        display: flex;
+    }
+    
+    header .navbar .navbar_logo {
+        width: fit-content;
+        padding-left: 10px;
+    }
+
+    header .navbar .navbar_logo img{
+        width: 80px;
     }
 
     .modal_services .modal_content_services {
@@ -509,9 +806,9 @@
     }
 }
 
-@media (min-width: 993px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1400px) {
     header .navbar .navbar_logo {
-        padding-left: 0.7rem;
+        padding-left: 10px;
     }
 
     header .navbar .navbar_links .navbar_item.services_collapse {
@@ -529,12 +826,8 @@
 
     }
 
-    .modal_content_services .content .products .product .product_name{
-        & a {
-            & h4{
-                font-size: 11px !important;
-            }
-        }
+    .modal_content_services .content .products .product .product_name a h4 {
+        font-size: 11px !important;
     }
 
     .product_image img{
@@ -567,9 +860,9 @@
     }
 }
 
-@media (min-width: 1401px)  {
+@media (min-width: 1400px)  {
     header .navbar .navbar_logo {
-        padding-left: 0.7rem;
+        padding-left: 10px;
     }
 }
 

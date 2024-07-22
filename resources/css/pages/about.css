@@ -2,15 +2,14 @@
 
 main .about{
     width: 100%;
-    min-height: 500px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-end;;
 }
 
 main .about .about_item {
-    width: 30%;
-    height: 90%;
+    width: 28%;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,7 +92,6 @@ main .about .about_item .item_content .text p {
 --------------------------------------------------------------*/
 .services {
     width: 100%;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -109,6 +107,7 @@ main .about .about_item .item_content .text p {
   }
   
   .services-container {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
