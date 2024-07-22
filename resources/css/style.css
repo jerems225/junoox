@@ -568,6 +568,7 @@ footer .footer-container .right-links-footer a {
 
 
 @media (max-width: 700px) {
+    
     header .navbar .navbar_links {
         width: 100%;
     }

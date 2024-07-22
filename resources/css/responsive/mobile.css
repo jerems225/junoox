@@ -34,8 +34,8 @@
 
     }
 
-    header .navbar .navbar_links .navbar_items .navbar_item:nth-child(1) {
-        display: flex;
+    header .navbar .navbar_links .navbar_items .navbar_item.services {
+        display: none;
     }
     header .navbar .navbar_links .navbar_services_links.active {
         top: 100%;
@@ -136,8 +136,8 @@
 
     }
 
-    header .navbar .navbar_links .navbar_items .navbar_item:nth-child(1) {
-        display: flex;
+    header .navbar .navbar_links .navbar_items .navbar_item.services {
+        display: none;
     }
     header .navbar .navbar_links .navbar_services_links.active {
         top: 100%;
@@ -236,9 +236,10 @@
 
     }
 
-    header .navbar .navbar_links .navbar_items .navbar_item:nth-child(1) {
-        display: flex;
+    header .navbar .navbar_links .navbar_items .navbar_item.services {
+        display: none;
     }
+
     header .navbar .navbar_links .navbar_services_links.active {
         top: 100%;
     }
@@ -354,8 +355,8 @@
 
     }
 
-    header .navbar .navbar_links .navbar_items .navbar_item:nth-child(1) {
-        display: flex;
+    header .navbar .navbar_links .navbar_items .navbar_item.services {
+        display: none;
     }
     header .navbar .navbar_links .navbar_services_links.active {
         top: 100%;
@@ -483,8 +484,8 @@
 
     }
 
-    header .navbar .navbar_links .navbar_items .navbar_item:nth-child(1) {
-        display: flex;
+    header .navbar .navbar_links .navbar_items .navbar_item.services {
+        display: none;
     }
     header .navbar .navbar_links .navbar_services_links.active {
         top: 100%;
@@ -606,8 +607,8 @@
 
     }
 
-    header .navbar .navbar_links .navbar_items .navbar_item:nth-child(1) {
-        display: flex;
+    header .navbar .navbar_links .navbar_items .navbar_item.services {
+        display: none;
     }
     header .navbar .navbar_links .navbar_services_links.active {
         top: 100%;
@@ -729,11 +730,15 @@
 
     header .navbar .navbar_links .navbar_items {
         width: 95%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        border: 1px solid red;
     
     }
 
-    header .navbar .navbar_links .navbar_items .navbar_item:nth-child(1) {
-        display: flex;
+    header .navbar .navbar_links .navbar_items .navbar_item.services {
+        display: none;
     }
     header .navbar .navbar_links .navbar_services_links.active {
         top: 100%;
