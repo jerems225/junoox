@@ -17,10 +17,11 @@
 // });
 
 const menuIcon = document.querySelector('#menu_dropdown_icon');
-const navServicesLinks = document.querySelector('.navbar_services_links')
-menuIcon.onclick  = () => {
-  console.log(navServicesLinks.classList.toggle('active'))
-}
+const navServicesLinks = document.querySelector('.navbar_services_links');
+// menuIcon ? 
+// menuIcon.onclick  = () => {
+//   console.log(navServicesLinks.classList.toggle('active'))
+// }
 
 
 
