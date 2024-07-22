@@ -16,39 +16,40 @@
 //   },
 // });
 
+const menuIcon = document.querySelector('#menu_dropdown_icon');
+const navServicesLinks = document.querySelector('.navbar_services_links')
+menuIcon.onclick  = () => {
+  console.log(navServicesLinks.classList.toggle('active'))
+}
+
 
 
 document.addEventListener("DOMContentLoaded", function () {
   var searchInput = document.getElementById("junoox_search_engine");
   var searchButton = document.getElementById("search_icon_svg");
 
-  // Focus sur le champ de recherche
   searchInput.focus();
 
-  // Fonction de redirection vers la page de résultats
+
   function redirectToSearchResults(query) {
     if (query === "") {
-      return; // Arrête la fonction si le champ de recherche est vide
+      return; 
     }
 
-    // Redirection vers l'URL de recherche avec la valeur de la requête
     window.location.href =
       "http://search.junoox.com/index.php?page=search/web&search=" +
       encodeURIComponent(query) +
       "&type=web";
   }
 
-  // Action lorsque la touche "Enter" est pressée dans le champ de recherche
   searchInput.addEventListener("keydown", function (e) {
     if (e.key === "Enter") {
-      e.preventDefault(); // Empêche le comportement par défaut du formulaire
+      e.preventDefault();
       var query = searchInput.value.trim();
       redirectToSearchResults(query);
     }
   });
 
-
-  // Action lorsque le bouton est cliqué
   searchButton.addEventListener("click", function () {
     var query = searchInput.value.trim();
     redirectToSearchResults(query);
@@ -66,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
           if (item.classList.contains("active")) {
               content.style.maxHeight = null;
-              content.style.padding = "0 10px"; // Enlever le padding vertical
+              content.style.padding = "0 10px";
               item.classList.remove("active");
           } else {
               // Ferme tous les autres items
@@ -74,19 +75,19 @@ document.addEventListener("DOMContentLoaded", function() {
                   const accContent = accItem.querySelector(".accordion-content");
                   if (accItem !== item && accItem.classList.contains("active")) {
                       accContent.style.maxHeight = null;
-                      accContent.style.padding = "0 10px"; // Enlever le padding vertical
+                      accContent.style.padding = "0 10px";
                       accItem.classList.remove("active");
                   }
               });
 
-              // Ouvre l'item cliqué
               content.style.maxHeight = content.scrollHeight + "0px";
-              content.style.padding = "10px"; // Ajouter le padding vertical
+              content.style.padding = "10px";
               item.classList.add("active");
           }
       });
   });
 });
+
 
 
 

@@ -209,6 +209,24 @@
 }
 
 @media (min-width: 319px) and (max-width: 479px) {
+    header {
+        background-color: #ffffff !important;
+    }
+
+    header .navbar .navbar_links .navbar_items .navbar_services_links {
+        position: absolute;
+        top: -500%;
+    }
+
+    header .navbar .navbar_links .navbar_items .navbar_services_links.acitve {
+        display: flex;
+        top: 200%;
+    }
+
+    header .navbar .navbar_links .navbar_items .navbar_item#menu_dropdown_icon {
+        display: flex;
+    }
+    
     header .navbar .navbar_logo {
         padding-left: 0.7rem;
     }
@@ -302,8 +320,6 @@
     }
 }
 
-
-
 @media (min-width: 480px) and (max-width: 575px) {
     header .navbar .navbar_logo {
         padding-left: 0.7rem;
@@ -371,7 +387,6 @@
         font-size: 11px;
     }
 }
-
 
 @media (min-width: 576px) and (max-width: 767px) {
     header .navbar .navbar_logo {

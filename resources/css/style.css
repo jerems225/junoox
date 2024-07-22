@@ -80,6 +80,13 @@ header .navbar .navbar_links .navbar_items {
     height: 100%;
     display: flex;
     justify-content: flex-end;
+;
+}
+
+header .navbar .navbar_links .navbar_items .navbar_services_links {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
 
 }
 
@@ -88,6 +95,10 @@ header .navbar .navbar_links .navbar_items .navbar_item {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+header .navbar .navbar_links .navbar_items .navbar_item#menu_dropdown_icon {
+    display: none;
 }
 
 header .navbar .navbar_links .navbar_items .navbar_item .standard_button {
