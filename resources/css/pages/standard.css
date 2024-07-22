@@ -23,6 +23,7 @@ header {
     width: 100%;
     top: 0;
     background-color: white;
+    z-index: 999;
 }
 
 
@@ -69,6 +70,7 @@ main .banner .banner_image .overlay h3{
     font-size: 31px;
     font-weight: 700;
     color: white;
+    text-align: center;
 }
 
 main .banner .banner_text {

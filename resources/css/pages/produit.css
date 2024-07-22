@@ -6,10 +6,10 @@ main .banner.reverse{
 }
 
 main .banner .banner_image{
-    background-image: url('../../images/services/services.jpg') !important;
+    background-image: url('../../images/products/produit.jpg') !important;
 }
 
-main .services {
+main .produits {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -19,23 +19,22 @@ main .services {
 
 }
 
-main .services .services_container {
-    width: 80%;
+main .produits .produits_container {
+    width: 85%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    margin-top: 19px;
+    margin-top: 26px;
     margin-bottom: 30px;
-
 }
 
-main .services .services_container .services_link_box {
-    width: 30%;
-    height: 75%;
-
+main .produits .produits_container .produits_link_box {
+    width: 32%;
+    height: 32%;
 }
 
-main .services .services_container .services_link_box .services_item {
+main .produits .produits_container .produits_link_box .produits_item {
     width: 100%;
     height: 100%;
     background-color: #fff;
@@ -45,18 +44,18 @@ main .services .services_container .services_link_box .services_item {
 
 }
 
-main .services .services_container .services_link_box .services_item:hover{
+main .produits .produits_container .produits_link_box .produits_item:hover{
     transform: scale(0.95);
     transition: 0.5s ease-in-out;
 }
 
-main .services .services_container .services_item .service_image {
+main .produits .produits_container .produits_item .produit_image {
     width: 100%;
-    height: 75%;
+    height: 60%;
 
 }
 
-main .services .services_container .services_item .service_image img{
+main .produits .produits_container .produits_item .produit_image img{
     width: 100%;
     height: 100%;
     border-top-left-radius: 5px;
@@ -64,9 +63,9 @@ main .services .services_container .services_item .service_image img{
     object-fit: cover;
 }
 
-main .services .services_container .services_item .service_text {
+main .produits .produits_container .produits_item .produit_text {
     width: 100%;
-    height: 25%;
+    height: 40%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -74,8 +73,8 @@ main .services .services_container .services_item .service_text {
     padding: 5px;
 }
 
-main .services .services_container .services_item .service_text h3{
-    font-size: 21px;
+main .produits .produits_container .produits_item .produit_text h3{
+    font-size: 19px;
     font-weight: 600;
     line-height: 34px;
     letter-spacing: -1px;
@@ -83,11 +82,17 @@ main .services .services_container .services_item .service_text h3{
     margin-top: 5px;
 }
 
-main .services .services_container .services_item .service_text p {
-    font-size: 13px;
+main .produits .produits_container .produits_item .produit_text h3 span{
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+main .produits .produits_container .produits_item .produit_text p {
+    font-size: 12px;
     font-weight: 400;
-    line-height: 21px;
-    text-align: center;
-    margin-top: 5px;
+    line-height: 19px;
+    text-align: justify;
+    margin-top: 3px;
+    padding: 3px;
     color: #000;
 }
