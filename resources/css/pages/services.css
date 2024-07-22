@@ -1,4 +1,6 @@
-main .banner{
+@import url('./standard.css');
+
+main .banner.reverse{
     display: flex;
     flex-direction: row-reverse !important;
 }
