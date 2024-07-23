@@ -99,6 +99,13 @@ main .banner .banner_image.ia {
     background-image: url('../../images/services/ia-services-it.jpg') !important;
 }
 
+main .banner .banner_image.cyber {
+    background-image: url('../../images/services/cloud.jpg') !important;
+}
+
+main .banner .banner_image.infra {
+    background-image: url('../../images/services/cybers-security.jpg') !important;
+}
 
 main .services_ {
     width: 100%;
