@@ -59,6 +59,12 @@ header {
     background-color: var(--primary-color);;
 }
 
+.rotate_icon {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+
 
 @media (max-width: 992px) {
     .dropdown_menu {

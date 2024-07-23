@@ -98,6 +98,11 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+const dropdown_link = document.querySelector('.dropdown_link');
+dropdown_link.addEventListener('click', () => {
+  dropdown_link.children[0].classList.toggle('rotate_icon');
+})
+
 
 
 
