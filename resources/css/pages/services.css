@@ -16,17 +16,16 @@ main .services {
     justify-content: center;
     align-items: center;
     margin-top: 50px !important;
-
 }
 
 main .services .services_container {
     width: 80%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 19px;
     margin-bottom: 30px;
-
 }
 
 main .services .services_container .services_link_box {
@@ -84,9 +83,9 @@ main .services .services_container .services_item .service_text h3{
 }
 
 main .services .services_container .services_item .service_text p {
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 21px;
+    line-height: 19px;
     text-align: center;
     margin-top: 5px;
     color: #000;
@@ -131,7 +130,7 @@ main .services_ .services_items .services_item {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    border: 1px solid red;
 }
 
 main .services_ .services_items .services_item .item_image{

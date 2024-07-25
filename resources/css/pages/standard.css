@@ -201,7 +201,7 @@ main section .section_title h2 {
 }
 
 
-main .services-container .text h3 {
+main .about_services_container .services_item .item_content .text h3 {
     font-size: 19px;
     font-weight: bold;
     color: var(--primary-color);

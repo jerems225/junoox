@@ -101,7 +101,7 @@
         line-height: 18px;
     }
 
-    main .services-container {
+    main .about_services_container {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -120,28 +120,28 @@
     }
     
     
-    main .services-container .text h3 {
+    main .about_services_container .text h3 {
         font-size: 15px;
     }
 
-    main .services-container .services-item {
+    main .about_services_container .services_item {
         width: 98%;
         margin-bottom: 15px;
     }
 
-    main .services-container .services-item .item-content {
+    main .about_services_container .services_item .item_content {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    main .services-container .services-item .item-content .text h3 {
+    main .about_services_container .services_item .item_content .text h3 {
         font-size: 17px;
         text-align: center;
         margin-top: 5px;
     }
 
-    main .services-container .services-item .item-content .text p {
+    main .about_services_container .services_item .item_content .text p {
         font-size: 13px;
         text-align: center;
         margin-top: 5px;
@@ -152,7 +152,7 @@
     }
 }
 
-@media (min-width: 203px) and (max-width: 249px) {
+@media (min-width: 202px) and (max-width: 249px) {
 
     main .banner {
         height: auto !important;
@@ -198,6 +198,18 @@
         justify-content: flex-start;
         align-items: center;
         padding-top: 20px;
+    }
+
+    main .banner.service_main .banner_text {
+        width: 100%;
+        height: 120px;
+        padding: 10px;
+    }
+
+    main .banner.service_main .banner_text .text_zone .title {
+        display: none;
+        font-size: 19px !important;
+        line-height: 25px;
     }
 
     main .banner .banner_text .text_zone .title {
@@ -255,7 +267,7 @@
         line-height: 18px;
     }
 
-    main .services-container {
+    main .about_services_container {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -265,40 +277,62 @@
     }
 
     main section .section_title h5 {
-        font-size: 13px;
+        font-size: 9px;
     }
     
     
     main section .section_title h2 {
-        font-size: 19px;
+        font-size: 17px;
     }
     
     
-    main .services-container .text h3 {
+    main .about_services_container .text h3 {
         font-size: 15px;
     }
 
-    main .services-container .services-item {
+    main .about_services_container .services_item {
         width: 98%;
         margin-bottom: 15px;
     }
 
-    main .services-container .services-item .item-content {
+    main .about_services_container .services_item .item_content {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    main .services-container .services-item .item-content .text h3 {
+    main .about_services_container .services_item .item_content .text h3 {
         font-size: 17px;
         text-align: center;
         margin-top: 5px;
     }
 
-    main .services-container .services-item .item-content .text p {
+    main .about_services_container .services_item .item_content .text p {
         font-size: 13px;
         text-align: center;
         margin-top: 5px;
+    }
+
+    main .services .services_container {
+        display: flex;
+        margin-top: 19px;
+        margin-bottom: 60px;
+    }
+
+    main .services .services_container .services_link_box {
+        width: 100%;
+        height: 350px;
+        margin-top: 20px;
+    }
+
+    main .services .services_container .services_item .service_text h3{
+        font-size: 12px;
+    }
+    
+    main .services .services_container .services_item .service_text p {
+        font-size: 9px;
+        line-height: 12px;
+        margin-top: 2px;
     }
 
     footer {
@@ -341,6 +375,223 @@
     main .banner .banner_text {
         width: 100%;
         height: 350px;
+    }
+    
+    main .banner .banner_text .text_zone {
+        width: 92%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    main .banner.service_main .banner_text {
+        width: 100%;
+        height: 120px;
+        padding: 10px;
+    }
+
+    main .banner.service_main .banner_text .text_zone .title {
+        display: none;
+        font-size: 19px !important;
+        line-height: 25px;
+    }
+
+    main .banner .banner_text .text_zone .title {
+        font-size: 19px !important;
+        line-height: 25px;
+    }
+
+    main .banner .banner_text .text_zone .text {
+        font-size: 14px;
+        text-align: justify;
+        margin-top: 19px;
+        padding: 5px;
+        line-height: 22px;
+    }
+
+    main .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .about .about_item {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    main .about .about_item .item_content {
+        width: 92%;
+        height: 88%;
+    }
+
+    main .about .about_item .item_content .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .about .about_item .item_content .icon span {
+        width: 70px;
+        height: 70px;
+    }
+
+    main .about .about_item .item_content .text h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    main .about .about_item .item_content .text p {
+        font-size: 15px;
+    }
+
+    main .about_services_container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+
+    main section .section_title h5 {
+        font-size: 11px;
+    }
+    
+    
+    main section .section_title h2 {
+        font-size: 19px;
+    }
+    
+    
+    main .about_services_container .text h3 {
+        font-size: 15px;
+    }
+
+    main .about_services_container .services_item {
+        width: 98%;
+        margin-bottom: 15px;
+    }
+
+    main .about_services_container .services_item .item_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .about_services_container .services_item .item_content .text h3 {
+        font-size: 17px;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    main .about_services_container .services_item .item_content .text p {
+        font-size: 13px;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    main .about_services_container .services_item {
+        width: 98%;
+        margin-bottom: 15px;
+    }
+
+    main .about_services_container .services_item .item_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .about_services_container .services_item .item_content .text h3 {
+        font-size: 17px;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    main .about_services_container .services_item .item_content .text p {
+        font-size: 13px;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    main .services .services_container {
+        display: flex;
+        margin-top: 19px;
+        margin-bottom: 60px;
+    }
+
+    main .services .services_container .services_link_box {
+        width: 100%;
+        height: 350px;
+        margin-top: 20px;
+    }
+
+    main .services .services_container .services_item .service_text h3{
+        font-size: 15px;
+    }
+    
+    main .services .services_container .services_item .service_text p {
+        font-size: 11px;
+        line-height: 15px;
+        margin-top: 2px;
+    }
+}
+
+@media (min-width: 318px) and (max-width: 479px) {
+    main .banner {
+        height: auto !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .banner.reverse {
+        height: auto !important;
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    main .banner .banner_image {
+        width: 100%;
+        height: 200px;
+    }
+
+    
+    main .banner .banner_image .overlay  {
+        width: 100%;
+        height: 200px;
+        background-color: rgba(0, 0, 0, 0.585);
+    }
+
+    main .banner .banner_image .overlay h3{
+        display: flex;
+        font-size: 31px;
+        font-weight: 700;
+        color: white;
+    }
+    
+    main .banner .banner_text {
+        width: 100%;
+        height: 350px;
+    }
+
+    main .banner.service_main .banner_text {
+        width: 100%;
+        height: 120px;
+        padding: 10px;
+    }
+
+    main .banner.service_main .banner_text .text_zone .title {
+        display: none;
+        font-size: 19px !important;
+        line-height: 25px;
     }
     
     main .banner .banner_text .text_zone {
@@ -407,7 +658,7 @@
         font-size: 15px;
     }
 
-    main .services-container {
+    main .about_services_container {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -426,214 +677,58 @@
     }
     
     
-    main .services-container .text h3 {
+    main .about_services_container .text h3 {
         font-size: 15px;
     }
 
-    main .services-container .services-item {
+    main .about_services_container .services_item {
         width: 98%;
         margin-bottom: 15px;
     }
 
-    main .services-container .services-item .item-content {
+    main .about_services_container .services_item .item_content {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    main .services-container .services-item .item-content .text h3 {
+    main .about_services_container .services_item .item_content .text h3 {
         font-size: 17px;
         text-align: center;
         margin-top: 5px;
     }
 
-    main .services-container .services-item .item-content .text p {
+    main .about_services_container .services_item .item_content .text p {
         font-size: 13px;
         text-align: center;
         margin-top: 5px;
-    }
-}
-
-@media (min-width: 318px) and (max-width: 479px) {
-    main .banner {
-        height: auto !important;
-        display: flex;
-        flex-direction: column;
-        border: 1px solid red;
-    }
-
-    main .banner.reverse {
-        height: auto !important;
-        display: flex;
-        flex-direction: column !important;
-    }
-
-    main .banner .banner_image {
-        width: 100%;
-        height: 200px;
-    }
-
-    
-    main .banner .banner_image .overlay  {
-        width: 100%;
-        height: 200px;
-        background-color: rgba(0, 0, 0, 0.585);
-    }
-
-    main .banner .banner_image .overlay h3{
-        display: flex;
-        font-size: 31px;
-        font-weight: 700;
-        color: white;
-    }
-    
-    main .banner .banner_text {
-        width: 100%;
-        height: 550px;
-    }
-    
-    main .banner .banner_text .text_zone {
-        width: 87%;
-        height: 550px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        padding-top: 32px;
-    }
-
-    main .banner .banner_text .text_zone .title {
-        font-size: 21px !important;
-        line-height: 25px;
-    }
-
-    main .banner .banner_text .text_zone .text {
-        font-size: 14px;
-        text-align: justify;
-        margin-top: 19px;
-        padding: 15px;
-        line-height: 22px;
-    }
-
-    main .about{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid red;
-    }
-
-    main .about .about_item {
-        width: 100%;
-        height: 400px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    main .about .about_item .item_content {
-        width: 92%;
-        height: 88%;
-    }
-
-    main .about .about_item .item_content .icon {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    main .about .about_item .item_content .icon span {
-        width: 70px;
-        height: 70px;
-    }
-
-    main .about .about_item .item_content .text h3 {
-        font-size: 22px;
-        text-align: center;
-    }
-    
-    main .about .about_item .item_content .text p {
-        font-size: 15px;
-    }
-
-    main .services-container {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 5px;
-    }
-
-    main section .section_title h5 {
-        font-size: 13px;
-    }
-    
-    
-    main section .section_title h2 {
-        font-size: 19px;
-    }
-    
-    
-    main .services-container .text h3 {
-        font-size: 15px;
-    }
-
-    main .services-container .services-item {
-        width: 98%;
-        margin-bottom: 15px;
-    }
-
-    main .services-container .services-item .item-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    main .services-container .services-item .item-content .text h3 {
-        font-size: 17px;
-        text-align: center;
-        margin-top: 5px;
-    }
-
-    main .services-container .services-item .item-content .text p {
-        font-size: 13px;
-        text-align: center;
-        margin-top: 5px;
-    }
-
-    /* services pages */
-    main section.services .section_title {
-        display: none;
-    
-    }
-
-    main .banner .banner_text {
-        height: 200px !important;
-    }
-
-    main .services {
-        width: 100%;
-        padding-bottom: 60px;
     }
 
     main .services .services_container {
-        width: 92%;
-        height: 600px;
         display: flex;
-        flex-direction: column;
+        margin-top: 19px;
+        margin-bottom: 60px;
     }
 
     main .services .services_container .services_link_box {
         width: 100%;
-        height: 80%;
-        margin-top: 15px;
+        height: 350px;
+        margin-top: 20px;
+    }
+
+    main .services .services_container .services_item .service_text h3{
+        font-size: 19px;
+    }
+    
+    main .services .services_container .services_item .service_text p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 2px;
     }
 }
 
-@media (min-width: 480px) and (max-width: 575px) {
-    main .banner {
+@media (min-width: 479px) and (max-width: 575px) {
+main .banner {
         height: auto !important;
         display: flex;
         flex-direction: column;
@@ -674,9 +769,21 @@
         height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         padding-top: 32px;
+    }
+
+    main .banner.service_main .banner_text {
+        width: 100%;
+        height: 120px;
+        padding: 10px;
+    }
+
+    main .banner.service_main .banner_text .text_zone .title {
+        display: none;
+        font-size: 19px !important;
+        line-height: 25px;
     }
 
     main .banner .banner_text .text_zone .title {
@@ -709,7 +816,7 @@
     }
 
     main .about .about_item .item_content {
-        width: 92%;
+        width: 80%;
         height: 88%;
     }
 
@@ -733,7 +840,7 @@
         font-size: 15px;
     }
 
-    main .services-container {
+    main .about_services_container {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -752,35 +859,80 @@
     }
     
     
-    main .services-container .text h3 {
+    main .about_services_container .text h3 {
         font-size: 15px;
     }
 
-    main .services-container .services-item {
+    main .about_services_container .services_item {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+
+    main .about_services_container .services_item .item_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .about_services_container .services_item .item_content .text h3 {
+        font-size: 17px;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    main .about_services_container .services_item .item_content .text p {
+        font-size: 13px;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    main .about_services_container .services_item {
         width: 98%;
         margin-bottom: 15px;
     }
 
-    main .services-container .services-item .item-content {
+    main .about_services_container .services_item .item_content {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    main .services-container .services-item .item-content .text h3 {
+    main .about_services_container .services_item .item_content .text h3 {
         font-size: 17px;
         text-align: center;
         margin-top: 5px;
     }
 
-    main .services-container .services-item .item-content .text p {
+    main .about_services_container .services_item .item_content .text p {
         font-size: 13px;
         text-align: center;
         margin-top: 5px;
     }
+
+    main .services .services_container {
+        display: flex;
+        margin-top: 19px;
+        margin-bottom: 60px;
+    }
+
+    main .services .services_container .services_link_box {
+        width: 100%;
+        height: 350px;
+        margin-top: 20px;
+    }
+
+    main .services .services_container .services_item .service_text h3{
+        font-size: 19px;
+    }
+    
+    main .services .services_container .services_item .service_text p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 2px;
+    }
 }
 
-@media (min-width: 576px) and (max-width: 767px){
+@media (min-width: 575px) and (max-width: 767px){
     main .banner {
         height: auto !important;
         display: flex;
@@ -825,6 +977,18 @@
         justify-content: center;
         align-items: center;
         padding-top: 32px;
+    }
+
+    main .banner.service_main .banner_text {
+        width: 100%;
+        height: 120px;
+        padding: 10px;
+    }
+
+    main .banner.service_main .banner_text .text_zone .title {
+        display: none;
+        font-size: 19px !important;
+        line-height: 25px;
     }
 
     main .banner .banner_text .text_zone .title {
@@ -881,7 +1045,7 @@
         font-size: 15px;
     }
 
-    main .services-container {
+    main .about_services_container {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -900,35 +1064,80 @@
     }
     
     
-    main .services-container .text h3 {
+    main .about_services_container .text h3 {
         font-size: 15px;
     }
 
-    main .services-container .services-item {
+    main .about_services_container .services_item {
         width: 80%;
         margin-bottom: 15px;
     }
 
-    main .services-container .services-item .item-content {
+    main .about_services_container .services_item .item_content {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    main .services-container .services-item .item-content .text h3 {
+    main .about_services_container .services_item .item_content .text h3 {
         font-size: 17px;
         text-align: center;
         margin-top: 5px;
     }
 
-    main .services-container .services-item .item-content .text p {
+    main .about_services_container .services_item .item_content .text p {
         font-size: 13px;
         text-align: center;
         margin-top: 5px;
     }
+
+    main .about_services_container .services_item {
+        width: 98%;
+        margin-bottom: 15px;
+    }
+
+    main .about_services_container .services_item .item_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .about_services_container .services_item .item_content .text h3 {
+        font-size: 17px;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    main .about_services_container .services_item .item_content .text p {
+        font-size: 13px;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    main .services .services_container {
+        display: flex;
+        margin-top: 19px;
+        margin-bottom: 60px;
+    }
+
+    main .services .services_container .services_link_box {
+        width: 100%;
+        height: 350px;
+        margin-top: 20px;
+    }
+
+    main .services .services_container .services_item .service_text h3{
+        font-size: 19px;
+    }
+    
+    main .services .services_container .services_item .service_text p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 2px;
+    }
 }
 
-@media (min-width: 768px) and (max-width: 992px){
+@media (min-width: 767px) and (max-width: 992px){
     main .banner {
         height: auto !important;
         display: flex;
@@ -977,6 +1186,18 @@
 
     main .banner .banner_text .text_zone .title {
         font-size: 21px !important;
+        line-height: 25px;
+    }
+
+    main .banner.service_main .banner_text {
+        width: 100%;
+        height: 120px;
+        padding: 10px;
+    }
+
+    main .banner.service_main .banner_text .text_zone .title {
+        display: none;
+        font-size: 19px !important;
         line-height: 25px;
     }
 
@@ -1029,7 +1250,7 @@
         font-size: 15px;
     }
 
-    main .services-container {
+    main .about_services_container {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -1048,31 +1269,54 @@
     }
     
     
-    main .services-container .text h3 {
+    main .about_services_container .text h3 {
         font-size: 15px;
     }
 
-    main .services-container .services-item {
+    main .about_services_container .services_item {
         width: 80%;
         margin-bottom: 15px;
     }
 
-    main .services-container .services-item .item-content {
+    main .about_services_container .services_item .item_content {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    main .services-container .services-item .item-content .text h3 {
+    main .about_services_container .services_item .item_content .text h3 {
         font-size: 17px;
         text-align: center;
         margin-top: 5px;
     }
 
-    main .services-container .services-item .item-content .text p {
+    main .about_services_container .services_item .item_content .text p {
         font-size: 13px;
         text-align: center;
         margin-top: 5px;
+    }
+
+    main .services .services_container {
+        display: flex;
+        width: 98%;
+        margin-top: 19px;
+        margin-bottom: 60px;
+    }
+
+    main .services .services_container .services_link_box {
+        width: 32%;
+        height: 350px;
+        margin-top: 20px;
+    }
+
+    main .services .services_container .services_item .service_text h3{
+        font-size: 17px;
+    }
+    
+    main .services .services_container .services_item .service_text p {
+        font-size: 11px;
+        line-height: 18px;
+        margin-top: 2px;
     }
 }
 
@@ -1116,10 +1360,33 @@
         font-size: 14px;
     }
 
-    main .services-container .services-item .item-content .text h3 {
+    main .about_services_container .services_item .item_content .text h3 {
         font-size: 16px;
         text-align: start;
         margin-top: 5px;
+    }
+
+    main .services .services_container {
+        display: flex;
+        width: 98%;
+        margin-top: 19px;
+        margin-bottom: 60px;
+    }
+
+    main .services .services_container .services_link_box {
+        width: 32%;
+        height: 350px;
+        margin-top: 20px;
+    }
+
+    main .services .services_container .services_item .service_text h3{
+        font-size: 17px;
+    }
+    
+    main .services .services_container .services_item .service_text p {
+        font-size: 11px;
+        line-height: 18px;
+        margin-top: 2px;
     }
 
     header .navbar .navbar_links .navbar_items .navbar_services_links {
@@ -1130,7 +1397,7 @@
     }
 }
 
-@media (min-width: 1401px){
+@media (min-width: 1400px){
 }
 
 

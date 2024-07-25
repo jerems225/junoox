@@ -1,24 +1,19 @@
- document.addEventListener('DOMContentLoaded', function() {
-    const openCardIcon = document.getElementById('openCardIcon');
-    const openCardIcon2 = document.getElementById('openCardIcon2');
-    const roundedCard = document.querySelector('.rounded-card');
+const menuIcon = document.querySelector('#menu_dropdown_icon');
+const navServicesLinks = document.querySelector('.navbar_services_links');
 
-    // Function to toggle the visibility of the card
-    const toggleCard = function(event) {
-        roundedCard.classList.toggle('d-block');
-        event.stopPropagation(); // Prevent the click from propagating to the document
-    };
+menuIcon.addEventListener('click', () => {
+  const ActiveNav = navServicesLinks.classList.toggle('active');
+  if(ActiveNav){
+    menuIcon.children[0].style.display = 'none';
+    menuIcon.children[1].style.display = 'flex';
+  }
+  else {
+    menuIcon.children[0].style.display = 'flex';
+    menuIcon.children[1].style.display = 'none';
+  }
+})
 
-    openCardIcon.addEventListener('click', toggleCard);
-    openCardIcon2.addEventListener('click', toggleCard);
-
-    // Function to close the card when clicking outside of it
-    document.addEventListener('click', function() {
-        roundedCard.classList.remove('d-block');
-    });
-
-    // Prevent clicking inside the card from closing it
-    roundedCard.addEventListener('click', function(event) {
-        event.stopPropagation();
-    });
-});
+const dropdown_link = document.querySelector('.dropdown_link');
+dropdown_link.addEventListener('click', () => {
+  dropdown_link.children[0].classList.toggle('rotate_icon');
+})
