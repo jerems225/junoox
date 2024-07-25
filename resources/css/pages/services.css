@@ -99,11 +99,11 @@ main .banner .banner_image.ia {
 }
 
 main .banner .banner_image.cyber {
-    background-image: url('../../images/services/cloud.jpg') !important;
+    background-image: url('../../images/services/cybers-security.jpg') !important;
 }
 
 main .banner .banner_image.infra {
-    background-image: url('../../images/services/cybers-security.jpg') !important;
+    background-image: url('../../images/services/cloud.jpg') !important;
 }
 
 main .services_ {
@@ -115,9 +115,9 @@ main .services_ {
 }
 
 main .services_ .services_items {
-    width: 90%;
-    height: 600px;
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-bottom: 12vh;
@@ -125,17 +125,16 @@ main .services_ .services_items {
 }
 
 main .services_ .services_items .services_item {
-    width: 190%;
-    height: 80%;
+    width: 100%;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
 }
 
 main .services_ .services_items .services_item .item_image{
     width: 44.5%;
-    height: 100%;
+    height: 80%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -150,7 +149,7 @@ main .services_ .services_items .services_item .item_image img {
 
 main .services_ .services_items .services_item .item_text {
     width: 55.5%;
-    height: 100%;
+    height: 80%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
