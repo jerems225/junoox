@@ -16,17 +16,18 @@ main .produits {
     justify-content: center;
     align-items: center;
     margin-top: 50px !important;
-
+    padding-bottom: 50px;
 }
 
 main .produits .produits_container {
     width: 85%;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 26px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+
 }
 
 main .produits .produits_container .produits_link_box {

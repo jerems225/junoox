@@ -160,6 +160,49 @@
         margin-top: 5px;
     }
 
+    main .produits {
+        width: 100%;
+        margin-top: 10px !important;
+        padding-bottom: 60px;
+    }
+
+    main .produits .produits_container {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 26px;
+    }
+
+    main .produits .produits_container .produits_link_box {
+        width: 100%;
+        height: 40%;
+        margin-top: 40px;
+    }
+
+    main .produits .produits_container .produits_item .produit_image {
+        width: 100%;
+        height: 50%;
+    }
+
+    main .produits .produits_container .produits_item .produit_text {
+        height: 60%;
+        padding: 3px;
+    }
+
+    main .produits .produits_container .produits_item .produit_text h3{
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: -1px;
+        margin-top: 1px;
+    }
+    
+    main .produits .produits_container .produits_item .produit_text p {
+        font-size: 8px;
+        line-height: 11px;
+        margin-top: 0.5px;
+        padding: 1px;
+    }
+
     footer {
         display: none;
     }
@@ -193,7 +236,7 @@
 
     main .banner .banner_image .overlay h3{
         display: flex;
-        font-size: 24px;
+        font-size: 21px;
         font-weight: 700;
         color: white;
     }
@@ -308,7 +351,7 @@
     
     
     main section .section_title h2 {
-        font-size: 17px;
+        font-size: 13px;
     }
     
     
@@ -409,6 +452,49 @@
         line-height: 20px;
     }
 
+    main .produits {
+        width: 100%;
+        margin-top: 10px !important;
+        padding-bottom: 60px;
+    }
+
+    main .produits .produits_container {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 26px;
+    }
+
+    main .produits .produits_container .produits_link_box {
+        width: 100%;
+        height: 40%;
+        margin-top: 40px;
+    }
+
+    main .produits .produits_container .produits_item .produit_image {
+        width: 100%;
+        height: 50%;
+    }
+
+    main .produits .produits_container .produits_item .produit_text {
+        height: 60%;
+        padding: 3px;
+    }
+
+    main .produits .produits_container .produits_item .produit_text h3{
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: -1px;
+        margin-top: 1px;
+    }
+    
+    main .produits .produits_container .produits_item .produit_text p {
+        font-size: 8px;
+        line-height: 11px;
+        margin-top: 0.5px;
+        padding: 1px;
+    }
+
     footer {
         display: none;
     }
@@ -441,7 +527,7 @@
 
     main .banner .banner_image .overlay h3{
         display: flex;
-        font-size: 31px;
+        font-size: 25px;
         font-weight: 700;
         color: white;
     }
@@ -574,7 +660,7 @@
     
     
     main section .section_title h2 {
-        font-size: 19px;
+        font-size: 17px;
     }
     
     
@@ -697,6 +783,49 @@
         margin-top: 5px;
         line-height: 22px;
     }
+
+    main .produits {
+        width: 100%;
+        margin-top: 10px !important;
+        padding-bottom: 60px;
+    }
+
+    main .produits .produits_container {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 26px;
+    }
+
+    main .produits .produits_container .produits_link_box {
+        width: 100%;
+        height: 40%;
+        margin-top: 40px;
+    }
+
+    main .produits .produits_container .produits_item .produit_image {
+        width: 100%;
+        height: 50%;
+    }
+
+    main .produits .produits_container .produits_item .produit_text {
+        height: 60%;
+        padding: 5px;
+    }
+
+    main .produits .produits_container .produits_item .produit_text h3{
+        font-size: 15px;
+        line-height: 27px;
+        letter-spacing: -1px;
+        margin-top: 3px;
+    }
+    
+    main .produits .produits_container .produits_item .produit_text p {
+        font-size: 10px;
+        line-height: 14px;
+        margin-top: 1px;
+        padding: 2px;
+    }
 }
 
 @media (min-width: 318px) and (max-width: 479px) {
@@ -726,7 +855,7 @@
 
     main .banner .banner_image .overlay h3{
         display: flex;
-        font-size: 31px;
+        font-size: 27px;
         font-weight: 700;
         color: white;
     }
@@ -938,6 +1067,50 @@
         font-size: 14px;
         margin-top: 5px;
         line-height: 22px;
+    }
+
+    main .produits {
+        width: 100%;
+        margin-top: 10px !important;
+        padding-bottom: 60px;
+        border: 1px solid red;
+    }
+
+    main .produits .produits_container {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 26px;
+    }
+
+    main .produits .produits_container .produits_link_box {
+        width: 100%;
+        height: 40%;
+        margin-top: 40px;
+    }
+
+    main .produits .produits_container .produits_item .produit_image {
+        width: 100%;
+        height: 50%;
+    }
+
+    main .produits .produits_container .produits_item .produit_text {
+        height: 60%;
+        padding: 5px;
+    }
+
+    main .produits .produits_container .produits_item .produit_text h3{
+        font-size: 15px;
+        line-height: 27px;
+        letter-spacing: -1px;
+        margin-top: 3px;
+    }
+    
+    main .produits .produits_container .produits_item .produit_text p {
+        font-size: 11px;
+        line-height: 15px;
+        margin-top: 1px;
+        padding: 2px;
     }
 
 }
@@ -1213,6 +1386,49 @@ main .banner {
         margin-top: 5px;
         line-height: 22px;
     }
+
+    main .produits {
+        width: 100%;
+        margin-top: 10px !important;
+        padding-bottom: 60px;
+    }
+
+    main .produits .produits_container {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 26px;
+    }
+
+    main .produits .produits_container .produits_link_box {
+        width: 100%;
+        height: 40%;
+        margin-top: 40px;
+    }
+
+    main .produits .produits_container .produits_item .produit_image {
+        width: 100%;
+        height: 60%;
+    }
+
+    main .produits .produits_container .produits_item .produit_text {
+        height: 40%;
+        padding: 5px;
+    }
+
+    main .produits .produits_container .produits_item .produit_text h3{
+        font-size: 19px;
+        line-height: 27px;
+        letter-spacing: -1px;
+        margin-top: 3px;
+    }
+    
+    main .produits .produits_container .produits_item .produit_text p {
+        font-size: 13px;
+        line-height: 17px;
+        margin-top: 5px;
+        padding: 5px;
+    }
 }
 
 @media (min-width: 575px) and (max-width: 767px){
@@ -1484,6 +1700,49 @@ main .banner {
         margin-top: 5px;
         line-height: 22px;
     }
+
+    main .produits {
+        width: 100%;
+        margin-top: 10px !important;
+        padding-bottom: 60px;
+    }
+
+    main .produits .produits_container {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 26px;
+    }
+
+    main .produits .produits_container .produits_link_box {
+        width: 100%;
+        height: 40%;
+        margin-top: 40px;
+    }
+
+    main .produits .produits_container .produits_item .produit_image {
+        width: 100%;
+        height: 70%;
+    }
+
+    main .produits .produits_container .produits_item .produit_text {
+        height: 30%;
+        padding: 5px;
+    }
+
+    main .produits .produits_container .produits_item .produit_text h3{
+        font-size: 19px;
+        line-height: 27px;
+        letter-spacing: -1px;
+        margin-top: 3px;
+    }
+    
+    main .produits .produits_container .produits_item .produit_text p {
+        font-size: 14px;
+        line-height: 17px;
+        margin-top: 5px;
+        padding: 15px;
+    }
 }
 
 @media (min-width: 767px) and (max-width: 992px){
@@ -1698,6 +1957,53 @@ main .banner {
         line-height: 19px;
     }
 
+    main .produits {
+        width: 100%;
+        margin-top: 10px !important;
+        padding-bottom: 70px;
+
+    }
+
+    main .produits .produits_container {
+        width: 85%;
+        display: flex;
+        flex-direction: flex;
+        flex-wrap: wrap;
+        margin-top: 26px;
+
+    }
+
+    main .produits .produits_container .produits_link_box {
+        width: 47%;
+        height: 30%;
+        margin-top: 40px;
+
+    }
+
+    main .produits .produits_container .produits_item .produit_image {
+        width: 100%;
+        height: 60%;
+    }
+
+    main .produits .produits_container .produits_item .produit_text {
+        height: 40%;
+        padding: 5px;
+    }
+
+    main .produits .produits_container .produits_item .produit_text h3{
+        font-size: 19px;
+        line-height: 27px;
+        letter-spacing: -1px;
+        margin-top: 3px;
+    }
+    
+    main .produits .produits_container .produits_item .produit_text p {
+        font-size: 11px;
+        line-height: 14px;
+        margin-top: 5px;
+        padding: 5px;
+    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1400px){
@@ -1769,6 +2075,52 @@ main .banner {
         margin-top: 2px;
     }
 
+    main .produits {
+        width: 100%;
+        margin-top: 25px !important;
+        padding-bottom: 100px;
+
+    }
+
+    main .produits .produits_container {
+        width: 85%;
+        display: flex;
+        flex-direction: flex;
+        flex-wrap: wrap;
+        margin-top: 26px;
+    }
+
+    main .produits .produits_container .produits_link_box {
+        width: 30%;
+        height: 30%;
+        margin-top: 40px;
+
+    }
+
+    main .produits .produits_container .produits_item .produit_image {
+        width: 100%;
+        height: 55%;
+    }
+
+    main .produits .produits_container .produits_item .produit_text {
+        height: 45%;
+        padding: 5px;
+    }
+
+    main .produits .produits_container .produits_item .produit_text h3{
+        font-size: 19px;
+        line-height: 27px;
+        letter-spacing: -1px;
+        margin-top: 3px;
+    }
+    
+    main .produits .produits_container .produits_item .produit_text p {
+        font-size: 10px;
+        line-height: 12px;
+        margin-top: 5px;
+        padding: 2px;
+    }
+
     header .navbar .navbar_links .navbar_items .navbar_services_links {
         width: 90%;
         display: flex;
@@ -1778,6 +2130,51 @@ main .banner {
 }
 
 @media (min-width: 1400px){
+    main .produits {
+        width: 100%;
+        margin-top: 25px !important;
+        padding-bottom: 150px;
+
+    }
+
+    main .produits .produits_container {
+        width: 85%;
+        display: flex;
+        flex-direction: flex;
+        flex-wrap: wrap;
+        margin-top: 26px;
+    }
+
+    main .produits .produits_container .produits_link_box {
+        width: 32%;
+        height: 32%;
+        margin-top: 40px;
+
+    }
+
+    main .produits .produits_container .produits_item .produit_image {
+        width: 100%;
+        height: 63%;
+    }
+
+    main .produits .produits_container .produits_item .produit_text {
+        height: 32%;
+        padding: 5px;
+    }
+
+    main .produits .produits_container .produits_item .produit_text h3{
+        font-size: 21px;
+        line-height: 27px;
+        letter-spacing: -1px;
+        margin-top: 3px;
+    }
+    
+    main .produits .produits_container .produits_item .produit_text p {
+        font-size: 13px;
+        line-height: 15px;
+        margin-top: 5px;
+        padding: 4px;
+    }
 }
 
 
