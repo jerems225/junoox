@@ -495,6 +495,37 @@
         padding: 1px;
     }
 
+    main .privacy {
+        padding: 10px;
+    }
+
+    main .privacy .accordion {
+        width: 100%;
+        min-height: 500px;
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+
+    main .privacy .accordion .accordion-item .accordion-header .accordion-title {
+        font-size: 14px;
+    }
+
+    main .terms {
+        padding: 10px;
+    }
+
+    main .terms .accordion {
+        width: 100%;
+        min-height: 500px;
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+
+    main .terms .accordion .accordion-item .accordion-header .accordion-title {
+        font-size: 14px;
+    }
+
+
     footer {
         display: none;
     }
@@ -660,7 +691,7 @@
     
     
     main section .section_title h2 {
-        font-size: 17px;
+        font-size: 13px;
     }
     
     
@@ -826,6 +857,37 @@
         margin-top: 1px;
         padding: 2px;
     }
+
+    main .privacy {
+        padding: 10px;
+    }
+
+    main .privacy .accordion {
+        width: 100%;
+        min-height: 500px;
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+
+    main .privacy .accordion .accordion-item .accordion-header .accordion-title {
+        font-size: 14px;
+    }
+
+    main .terms {
+        padding: 10px;
+    }
+
+    main .terms .accordion {
+        width: 100%;
+        min-height: 500px;
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+
+    main .terms .accordion .accordion-item .accordion-header .accordion-title {
+        font-size: 14px;
+    }
+
 }
 
 @media (min-width: 318px) and (max-width: 479px) {
@@ -968,7 +1030,7 @@
     
     
     main section .section_title h2 {
-        font-size: 19px;
+        font-size: 14px;
     }
     
     
@@ -1073,7 +1135,6 @@
         width: 100%;
         margin-top: 10px !important;
         padding-bottom: 60px;
-        border: 1px solid red;
     }
 
     main .produits .produits_container {
@@ -1111,6 +1172,36 @@
         line-height: 15px;
         margin-top: 1px;
         padding: 2px;
+    }
+
+    main .privacy {
+        padding: 10px;
+    }
+
+    main .privacy .accordion {
+        width: 100%;
+        min-height: 500px;
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+
+    main .privacy .accordion .accordion-item .accordion-header .accordion-title {
+        font-size: 14px;
+    }
+
+    main .terms {
+        padding: 10px;
+    }
+
+    main .terms .accordion {
+        width: 100%;
+        min-height: 500px;
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+
+    main .terms .accordion .accordion-item .accordion-header .accordion-title {
+        font-size: 14px;
     }
 
 }
@@ -1429,6 +1520,37 @@ main .banner {
         margin-top: 5px;
         padding: 5px;
     }
+
+    main .privacy {
+        padding: 10px;
+    }
+
+    main .privacy .accordion {
+        width: 100%;
+        min-height: 500px;
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+
+    main .privacy .accordion .accordion-item .accordion-header .accordion-title {
+        font-size: 14px;
+    }
+
+    main .terms {
+        padding: 10px;
+    }
+
+    main .terms .accordion {
+        width: 100%;
+        min-height: 500px;
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+
+    main .terms .accordion .accordion-item .accordion-header .accordion-title {
+        font-size: 14px;
+    }
+
 }
 
 @media (min-width: 575px) and (max-width: 767px){
@@ -1743,6 +1865,37 @@ main .banner {
         margin-top: 5px;
         padding: 15px;
     }
+
+    main .privacy {
+        padding: 10px;
+    }
+
+    main .privacy .accordion {
+        width: 100%;
+        min-height: 500px;
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+
+    main .privacy .accordion .accordion-item .accordion-header .accordion-title {
+        font-size: 14px;
+    }
+
+    main .terms {
+        padding: 10px;
+    }
+
+    main .terms .accordion {
+        width: 100%;
+        min-height: 500px;
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+
+    main .terms .accordion .accordion-item .accordion-header .accordion-title {
+        font-size: 14px;
+    }
+
 }
 
 @media (min-width: 767px) and (max-width: 992px){
@@ -2003,6 +2156,37 @@ main .banner {
         margin-top: 5px;
         padding: 5px;
     }
+
+    main .privacy {
+        padding: 10px;
+    }
+
+    main .privacy .accordion {
+        width: 80%;
+        min-height: 500px;
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+
+    main .privacy .accordion .accordion-item .accordion-header .accordion-title {
+        font-size: 14px;
+    }
+
+    main .terms {
+        padding: 10px;
+    }
+
+    main .terms .accordion {
+        width: 80%;
+        min-height: 500px;
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+
+    main .terms .accordion .accordion-item .accordion-header .accordion-title {
+        font-size: 14px;
+    }
+
 
 }
 
