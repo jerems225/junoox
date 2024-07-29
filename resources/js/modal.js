@@ -17,8 +17,3 @@ window.onclick = function (event) {
   }
 };
 
-btn_dropdown_link.onclick = function () {
-  drowpdown_menu.style.display == "block"
-    ? (drowpdown_menu.style.display = "none")
-    : (drowpdown_menu.style.display = "block");
-};
