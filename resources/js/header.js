@@ -1,5 +1,9 @@
 const menuIcon = document.querySelector('#menu_dropdown_icon');
 const navServicesLinks = document.querySelector('.navbar_services_links');
+var drowpdown_menu = document.querySelector("#drowpdown_menu");
+
+var btn = document.querySelector(".menu-icon");
+var btn_dropdown_link = document.querySelector(".dropdown_link");
 
 menuIcon.addEventListener('click', () => {
   const ActiveNav = navServicesLinks.classList.toggle('active');

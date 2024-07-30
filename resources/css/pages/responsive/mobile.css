@@ -268,6 +268,10 @@
         line-height: 25px;
     }
 
+    main .banner.banner_service_ {
+        margin-bottom: 20px !important;
+    }
+
     main .banner .banner_text.service_ {
         width: 100%;
         height: 190px;
@@ -299,6 +303,22 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    main .about_title .text_zone {
+        width: 90%;
+        height: 310px;
+    }
+
+    main .about_title .text_zone .title {
+        font-size: 13px;
+        line-height: 17px;
+    }
+      
+      main .about_title .text_zone .text {
+        font-size: 12px;
+        text-align: justify;
+        line-height: 19px;
     }
 
     main .about .about_item {
@@ -584,6 +604,10 @@
         padding: 10px;
     }
 
+    main .banner.banner_service_ {
+        margin-bottom: 20px !important;
+    }
+
     main .banner.service_main .banner_text .text_zone .title {
         display: none;
         font-size: 19px !important;
@@ -640,6 +664,22 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    main .about_title .text_zone {
+        width: 90%;
+        height: 310px;
+    }
+
+    main .about_title .text_zone .title {
+        font-size: 15px;
+        line-height: 21px;
+    }
+      
+      main .about_title .text_zone .text {
+        font-size: 13px;
+        text-align: justify;
+        line-height: 21px;
     }
 
     main .about .about_item {
@@ -933,6 +973,10 @@
         padding: 10px;
     }
 
+    main .banner.banner_service_ {
+        margin-bottom: 20px !important;
+    }
+
     main .banner .banner_text.service_ {
         width: 100%;
         height: 170px;
@@ -979,6 +1023,22 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    main .about_title .text_zone {
+        width: 90%;
+        height: 290px;
+    }
+
+    main .about_title .text_zone .title {
+        font-size: 17px;
+        line-height: 25px;
+    }
+      
+      main .about_title .text_zone .text {
+        font-size: 13px;
+        text-align: justify;
+        line-height: 21px;
     }
 
     main .about .about_item {
@@ -1269,6 +1329,10 @@ main .banner {
         width: 100%;
         height: 170px;
         padding: 10px;
+    }
+
+    main .banner.banner_service_ {
+        margin-bottom: 20px !important;
     }
 
     main .banner .banner_text.service_ .text_zone .title {

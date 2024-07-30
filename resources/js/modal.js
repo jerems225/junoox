@@ -1,9 +1,6 @@
 var modal = document.querySelector("#myModal");
 var modalContent = document.querySelector("#modal-content");
-var drowpdown_menu = document.querySelector("#drowpdown_menu");
 
-var btn = document.querySelector(".menu-icon");
-var btn_dropdown_link = document.querySelector(".dropdown_link");
 
 btn.onclick = function () {
   modal.style.display == "block"
