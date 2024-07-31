@@ -488,8 +488,8 @@
     main .search_engine {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-
+        justify-content: flex-start;
+        margin-top: 30px;
     }
 
     main .search_engine .search-titre {
@@ -530,7 +530,7 @@
     main .products .content .product .product_image a {
         display: flex;
         justify-content: center;
-        align-items: flex-end;
+        align-items: center;
     }
 
     main .products .content .product .product_image a img {
