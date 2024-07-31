@@ -231,11 +231,9 @@ main .search_engine .engine_input_search .search_engine_form .input_frame .searc
     background-color: #fff !important;
 }
 
-main .search_engine .engine_input_search .search_engine_form .input_frame .search_icon svg {
-    width: 50%;
-    height: 50%;
-    cursor: progress;
-    transform: rotateY(90deg);
+main .search_engine .engine_input_search .search_engine_form .input_frame .search_icon img {
+    width: 70%;
+    height: 70%;
 }
 
 main .search_engine .engine_input_search .search_engine_form .input_frame .input_frame_search {
@@ -274,11 +272,10 @@ main .products {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 main .products .content {
-    width: 35%;
+    width: 30%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -336,12 +333,10 @@ main .products .content .product .product_name {
 
 }
 
-main .products .content .product .product_name h4 {
-    font-size: 14px;
-    font-weight: 500;
-}
 
 main .products .content .product .product_name h4 a {
+    font-size: 14px;
+    font-weight: 400;
     color: #000;
 }
 
