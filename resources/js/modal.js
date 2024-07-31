@@ -1,3 +1,4 @@
+var btn = document.querySelector(".menu-icon");
 var modal = document.querySelector("#myModal");
 var modalContent = document.querySelector("#modal-content");
 
