@@ -274,239 +274,75 @@ main .products {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-main .products .products_collapse {
-    width: 100%;
+main .products .content {
+    width: 35%;
     height: 100%;
-    /* Ajuster la hauteur selon vos besoins */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .products .content .product {
+    width: 25%;
+    height: 98%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    /* Aligner les éléments au centre */
+    transition: 0.3s ease-in-out;
 }
 
-main .products .products_collapse .show_products {
-    font-size: 12px;
-    font-weight: 500;
-    text-decoration: none;
-    color: var(--primary-color);
-    margin-bottom: 5px;
-    /* Espacer les éléments */
-    width: 15%;
-    text-align: center;
-    padding: 10px;
-    color: white
+main .products .content .product:hover {
+    transform: scale(0.85);
+    transition: 0.3s ease-in-out;
 }
 
-main .products .products_collapse .collapsible {
-    margin-bottom: 10px;
-    /* Espacer les éléments */
-}
-
-/* collapse */
-.collapsible {
-    cursor: pointer;
-    padding: 0px;
+main .products .content .product .product_image {
     width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
+    height: 80%;
+    transition: 0.5s ease-in-out;
 
 }
 
+main .products .content .product .product_image:hover {
+    transform: rotate(5deg);
+    transition: 0.5s ease-in-out;
+}
 
-
-.content {
-    padding: 18px;
-    overflow-y: auto;
-    max-height: 900px;
-    /* Hauteur maximale du contenu avant le défilement */
-    display: none;
-    background-color: #f1f1f1;
+main .products .content .product .product_image a {
     width: 100%;
-    text-align: left;
-    box-sizing: border-box;
-    /* Pour inclure le padding dans la largeur */
-}
-
-
-.grid-container {
-    display: grid;
-    /* grid-template-columns: repeat(3, 1fr); 3 colonnes de taille égale */
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 5px;
-    /* Espacement entre les éléments */
-    background-color: #f1f1f1;
-}
-
-.item {
-    background-color: #fff;
-    padding: 5px;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* Ombre légère pour chaque carte */
-    max-width: 80%;
-    margin-left: auto;
-    /* Marge à gauche */
-    margin-right: auto;
-    /* Marge à droite */
-    margin-top: 10px;
-}
-
-.item img {
-    max-width: 100%;
-    /* Image ajustée pour ne pas dépasser la largeur de son conteneur */
-    height: auto;
-    /* Hauteur automatique en fonction de la largeur */
-    margin-bottom: 10px;
-    /* Espacement sous l'image */
-}
-
-.item a img {
-    max-width: 100%;
-    height: 150px;
-    /* Hauteur fixe pour toutes les images */
-    object-fit: cover;
-    /* Ajuste la taille de l'image tout en conservant son ratio */
-    border-radius: 8px;
-    /* Coins arrondis pour l'image */
-    margin-bottom: 10px;
-    /* Espacement sous l'image */
-}
-
-.item a p {
-    font-size: 0.9em;
-    text-align: center;
-}
-
-
-
-.item h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    font-weight: bold;
-}
-
-.item p {
-    font-size: 16px;
-    color: #110f0f;
-}
-
-
-
-
-
-/* modal service */
-
-/* Modal */
-#modalService {
-    display: none;
-    /* Caché par défaut */
-    position: fixed;
-    /* Position fixe pour rester au-dessus du contenu */
-    z-index: 1000;
-    /* Assure que le modal est au-dessus de tout le reste */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Prend tout l'espace horizontal */
     height: 100%;
-    /* Prend tout l'espace vertical */
-    overflow: auto;
-    /* Permet de scroller si le contenu du modal est trop grand */
-    background-color: rgba(0, 0, 0, 0.5);
-    /* Fond semi-transparent */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Contenu du modal */
-.modal-content-service {
-    background-color: #fefefe;
-    /* Couleur de fond du contenu du modal */
-    margin: 5% auto;
-    /* Centrer verticalement et horizontalement */
-    padding: 20px;
-    border: 1px solid #888;
+main .products .content .product .product_image a img {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+}
+
+main .products .content .product .product_name {
     width: 100%;
-    /* Largeur du contenu du modal */
-    max-width: 600px;
-    /* Largeur maximale du contenu */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    position: relative;
-    text-align: justify;
-    /* Justifier le texte */
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-/* Image dans le modal */
-.modal-content-service img {
-    max-width: 100%;
-    /* Image ne dépasse pas la largeur du modal */
-    height: auto;
-    /* Hauteur automatique selon la largeur */
-    margin-bottom: 20px;
-    /* Espacement en dessous de l'image */
+main .products .content .product .product_name h4 {
+    font-size: 14px;
+    font-weight: 500;
 }
 
-#modalText {
-    text-align: center;
-    /* Centrer le texte à l'intérieur du div */
-    margin-bottom: 20px;
-    /* Espacement en dessous du texte */
-}
-
-
-
-.modal-prev,
-.modal-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 40px;
-    height: 40px;
-    background-color: rgba(255, 255, 255, 0.8);
-    /* Fond semi-transparent */
-    border: none;
-    cursor: pointer;
-    font-size: 30px;
-    color: #333;
-    outline: none;
-    transition: background-color 0.3s ease;
-}
-
-.modal-prev {
-    left: 10px;
-}
-
-.modal-next {
-    right: 10px;
-}
-
-.modal-prev:hover,
-.modal-next:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-    /* Couleur de fond au survol */
-}
-
-
-/* Bouton de fermeture */
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    position: absolute;
-    right: 1px;
-    top: 0px;
-    cursor: pointer;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+main .products .content .product .product_name h4 a {
+    color: #000;
 }
 
 
