@@ -14,3 +14,9 @@
   -webkit-user-select: none;
   touch-action: manipulation;
 }
+
+.standard_button:hover {
+  background-image: linear-gradient(#d10303, #2680ed);
+  box-sizing: border-box;
+  color: #fff;
+}

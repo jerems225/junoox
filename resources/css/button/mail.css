@@ -7,10 +7,16 @@
     color: #fff !important;
     cursor: pointer !important;
     font-family: Montserrat, sans-serif !important;
-    font-size: .8em !important;
+    font-size: .9em !important;
     padding: 10px 15px !important;
     text-align: center !important;
     user-select: none !important;
     -webkit-user-select: none !important;
     touch-action: manipulation !important;
 }
+
+.button_mail:hover {
+    background-image: linear-gradient(#d10303, #0d70ea) !important;
+    box-sizing: border-box;
+    color: #fff;
+  }

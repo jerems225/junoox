@@ -493,26 +493,39 @@
 
     main .produits .produits_container .produits_item .produit_image {
         width: 100%;
-        height: 50%;
+        height: 48%;
     }
 
     main .produits .produits_container .produits_item .produit_text {
-        height: 60%;
-        padding: 3px;
+        height: 34%;
+        padding: 2px;
     }
 
     main .produits .produits_container .produits_item .produit_text h3{
-        font-size: 12px;
-        line-height: 20px;
+        font-size: 10px;
+        line-height: 10px;
         letter-spacing: -1px;
         margin-top: 1px;
     }
     
     main .produits .produits_container .produits_item .produit_text p {
         font-size: 8px;
-        line-height: 11px;
+        line-height: 8px;
         margin-top: 0.5px;
         padding: 1px;
+    }
+
+    main .produits .produits_container .produits_item .produit_button {
+        width: 100%;
+        height: 18%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .produits .produits_container .produits_item .produit_button .standard_button {
+        font-size: 8px;
+        padding: 5px 10px;
     }
 
     main .privacy {
@@ -876,26 +889,39 @@
 
     main .produits .produits_container .produits_item .produit_image {
         width: 100%;
-        height: 50%;
+        height: 48%;
     }
 
     main .produits .produits_container .produits_item .produit_text {
-        height: 60%;
+        height:34%;
         padding: 5px;
     }
 
     main .produits .produits_container .produits_item .produit_text h3{
-        font-size: 15px;
-        line-height: 27px;
+        font-size: 10px;
+        line-height: 11px;
         letter-spacing: -1px;
-        margin-top: 3px;
+        margin-top: 1px;
     }
     
     main .produits .produits_container .produits_item .produit_text p {
-        font-size: 10px;
-        line-height: 14px;
+        font-size: 8px;
+        line-height: 8px;
         margin-top: 1px;
         padding: 2px;
+    }
+
+    main .produits .produits_container .produits_item .produit_button {
+        width: 100%;
+        height: 18%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .produits .produits_container .produits_item .produit_button .standard_button {
+        font-size: 8px;
+        padding: 7px 12px;
     }
 
     main .privacy {
@@ -1212,11 +1238,11 @@
 
     main .produits .produits_container .produits_item .produit_image {
         width: 100%;
-        height: 50%;
+        height: 48%;
     }
 
     main .produits .produits_container .produits_item .produit_text {
-        height: 60%;
+        height: 34%;
         padding: 5px;
     }
 
@@ -1228,10 +1254,23 @@
     }
     
     main .produits .produits_container .produits_item .produit_text p {
-        font-size: 11px;
-        line-height: 15px;
+        font-size: 10px;
+        line-height: 13px;
         margin-top: 1px;
         padding: 2px;
+    }
+
+    main .produits .produits_container .produits_item .produit_button {
+        width: 100%;
+        height: 18%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .produits .produits_container .produits_item .produit_button .standard_button {
+        font-size: 10px;
+        padding: 8px 13px;
     }
 
     main .privacy {
@@ -1563,11 +1602,11 @@ main .banner {
 
     main .produits .produits_container .produits_item .produit_image {
         width: 100%;
-        height: 60%;
+        height: 48%;
     }
 
     main .produits .produits_container .produits_item .produit_text {
-        height: 40%;
+        height: 34%;
         padding: 5px;
     }
 
@@ -1583,6 +1622,19 @@ main .banner {
         line-height: 17px;
         margin-top: 5px;
         padding: 5px;
+    }
+
+    main .produits .produits_container .produits_item .produit_button {
+        width: 100%;
+        height: 18%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .produits .produits_container .produits_item .produit_button .standard_button {
+        font-size: 12px;
+        padding: 10px 15px;
     }
 
     main .privacy {
@@ -1894,7 +1946,7 @@ main .banner {
     }
 
     main .produits .produits_container {
-        width: 85%;
+        width: 75%;
         display: flex;
         flex-direction: column;
         margin-top: 26px;
@@ -1908,11 +1960,11 @@ main .banner {
 
     main .produits .produits_container .produits_item .produit_image {
         width: 100%;
-        height: 70%;
+        height: 48%;
     }
 
     main .produits .produits_container .produits_item .produit_text {
-        height: 30%;
+        height: 34%;
         padding: 5px;
     }
 
@@ -1928,6 +1980,19 @@ main .banner {
         line-height: 17px;
         margin-top: 5px;
         padding: 15px;
+    }
+
+    main .produits .produits_container .produits_item .produit_button {
+        width: 100%;
+        height: 18%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .produits .produits_container .produits_item .produit_button .standard_button {
+        font-size: 12px;
+        padding: 10px 15px;
     }
 
     main .privacy {
@@ -2199,11 +2264,11 @@ main .banner {
 
     main .produits .produits_container .produits_item .produit_image {
         width: 100%;
-        height: 60%;
+        height: 50%;
     }
 
     main .produits .produits_container .produits_item .produit_text {
-        height: 40%;
+        height: 29%;
         padding: 5px;
     }
 
@@ -2219,6 +2284,19 @@ main .banner {
         line-height: 14px;
         margin-top: 5px;
         padding: 5px;
+    }
+
+    main .produits .produits_container .produits_item .produit_button {
+        width: 100%;
+        height: 21%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    main .produits .produits_container .produits_item .produit_button .standard_button {
+        font-size: 12px;
+        padding: 10px 15px;
     }
 
     main .privacy {
@@ -2347,11 +2425,11 @@ main .banner {
 
     main .produits .produits_container .produits_item .produit_image {
         width: 100%;
-        height: 55%;
+        height: 48%;
     }
 
     main .produits .produits_container .produits_item .produit_text {
-        height: 45%;
+        height: 34%;
         padding: 5px;
     }
 
@@ -2367,6 +2445,19 @@ main .banner {
         line-height: 12px;
         margin-top: 5px;
         padding: 2px;
+    }
+
+    main .produits .produits_container .produits_item .produit_button {
+        width: 100%;
+        height: 18%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .produits .produits_container .produits_item .produit_button .standard_button {
+        font-size: 10px;
+        padding: 8px 13px;
     }
 
     header .navbar .navbar_links .navbar_items .navbar_services_links {
@@ -2402,11 +2493,11 @@ main .banner {
 
     main .produits .produits_container .produits_item .produit_image {
         width: 100%;
-        height: 63%;
+        height: 55%;
     }
 
     main .produits .produits_container .produits_item .produit_text {
-        height: 32%;
+        height: 30%;
         padding: 5px;
     }
 
@@ -2422,6 +2513,14 @@ main .banner {
         line-height: 15px;
         margin-top: 5px;
         padding: 4px;
+    }
+
+    main .produits .produits_container .produits_item .produit_button {
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
