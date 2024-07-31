@@ -1,200 +1,254 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     <title>Junoox | Moteur de recherche</title>
-    
+
     <link rel="stylesheet" href="./resources/css/style.css?ver=6">
     <link rel="stylesheet" href="./resources/css/responsive/mobile.css?ver=6">
     <link rel="stylesheet" href="./resources/css/modal.css?ver=6">
 
-    <!--[if lt IE 9]>
-    <![endif]-->
+    <!--[if lt IE 9]> <![endif]-->
 
     <!-- link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" -->
     <!--<link rel="stylesheet" href="css/animation.css">-->
     <link rel="shortcut icon" href="./resources/images/favicon.jpg" type="image/jpg">
     <script src="https://kit.fontawesome.com/0560fe03a6.js" crossorigin="anonymous"></script>
 
-</head>
-<body>
+  </head>
+
+  <body>
     <header>
-        <nav class="navbar">
-            <div class="navbar_logo">
-                <a href="./index.html">
-                    <img src="./resources/images/logo_junoox.svg?ver=6" alt="Logo">
-                </a>
-            </div>
-            <div class="navbar_links">
-                <ul class="navbar_items">
-                    <li class="navbar_item services">
-                        <a href="./pages/services.html" class="standard_button" rel="noopener noreferrer">Accédez à nos services</a>
-                    </li>
-                    <li class="navbar_item">
-                        <a href="https://mail.junoox.net" class="standard_button button_mail" target="_blank" rel="noopener noreferrer">JMail</a>
-                    </li>
-                    <li class="navbar_item services_collapse">
-                        <div class="icon_collapse">
-                            <img class="menu-icon" src="./resources/images/svg/menu.svg?ver=6" alt="service_icon" id="openModalIcon">
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+      <nav class="navbar">
+        <div class="navbar_logo">
+          <a href="./index.html">
+            <img src="./resources/images/logo_junoox.svg?ver=6" alt="Logo">
+          </a>
+        </div>
+        <div class="navbar_links">
+          <ul class="navbar_items">
+            <li class="navbar_item services">
+              <a href="./pages/services.html" class="standard_button" rel="noopener noreferrer">Accédez à nos services</a>
+            </li>
+            <li class="navbar_item">
+              <a href="https://mail.junoox.net" class="standard_button button_mail" target="_blank" rel="noopener noreferrer">JMail</a>
+            </li>
+            <li class="navbar_item services_collapse">
+              <div class="icon_collapse">
+                <img class="menu-icon" src="./resources/images/svg/menu.svg?ver=6" alt="service_icon" id="openModalIcon">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <div id="myModal" class="modal_services">
-        <div id="modal-content" class="modal_content_services">
-            <div class="content">
-                <div class="products">
-                    <div class="product">
-                        <div class="product_image">
-                            <a href="https://taxi.junoox.com/" target="_blank" rel="noopener noreferrer">
-                                <img src="./resources/images/products/svg/taxi.svg?ver=6" alt="">
-                            </a>
-                        </div>
-                        <div class="product_name">
-                            <a href="https://taxi.junoox.com/" target="_blank" rel="noopener noreferrer">
-                                <h4>JUNOO</h4> <h4 style="color:#D10303">VTC</h4>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="product">
-                        <div class="product_image">
-                            <a href="https://deli.junoox.com/" target="_blank" rel="noopener noreferrer">
-                                <img src="./resources/images/products/svg/deli.svg?ver=6" alt="">
-                            </a>
-                        </div>
-                        <div class="product_name">
-                            <a href="https://deli.junoox.com/" target="_blank" rel="noopener noreferrer">
-                                <h4>JUNOO</h4> <h4 style="color:#D10303">DELI</h4>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="product">
-                        <div class="product_image">
-                            <a href="http://shopping.junoox.com" target="_blank" rel="noopener noreferrer">
-                                <img src="./resources/images/products/svg/shop.svg?ver=6" alt="">
-                            </a>
-                        </div>
-                        <div class="product_name">
-                            <a href="http://shopping.junoox.com" target="_blank" rel="noopener noreferrer">
-                                <h4>JUNOO</h4> <h4 style="color:#D10303">SHOP</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="products products2">
-                    <div class="product">
-                        <div class="product_image">
-                            <a href="https://junoopay.junoox.com/" target="_blank" rel="noopener noreferrer">
-                                <img src="./resources/images/products/svg/pay.svg?ver=6" alt="">
-                            </a>
-                        </div>
-                        <div class="product_name">
-                            <a href="https://junoopay.junoox.com/" target="_blank" rel="noopener noreferrer">
-                                <h4>JUNOO</h4> <h4 style="color:#D10303">PAY</h4>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="product">
-                        <div class="product_image">
-                            <a href="https://mail.junoox.net/" target="_blank" rel="noopener noreferrer">
-                                <img src="./resources/images/products/svg/message.svg?ver=6" alt="">
-                            </a>
-                        </div>
-                        <div class="product_name">
-                            <a href="https://mail.junoox.net/" target="_blank" rel="noopener noreferrer">
-                                <h4>J</h4> <h4 style="color:#D10303">MAIL</h4>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="product">
-                        <div class="product_image">
-                            <a href="https://trafic.junoox.com" target="_blank" rel="noopener noreferrer">
-                                <img src="./resources/images/products/svg/trafic.svg?ver=6" alt="">
-                            </a>
-                        </div>
-                        <div class="product_name">
-                            <a href="https://trafic.junoox.com" target="_blank" rel="noopener noreferrer">
-                                <h4>JUNOO</h4> <h4 style="color:#D10303">TRAFIC</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="products products3">
-                    <div class="product">
-                        <div class="product_image">
-                            <a href="https://map.junoox.com" target="_blank" rel="noopener noreferrer">
-                                <img src="./resources/images/products/svg/map.svg?ver=6" alt="">
-                            </a>
-                        </div>
-                        <div class="product_name">
-                            <a href="https://map.junoox.com" target="_blank" rel="noopener noreferrer">
-                                <h4>JUNOO</h4> <h4 style="color:#D10303">MAP</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="products products4">
-                    <div class="product_button">
-                        <a href="./pages/services.html" class="standard_button" target="_blank" rel="noopener noreferrer">Accédez à nos services</a>
-                    </div>
-                </div>
+      <div id="modal-content" class="modal_content_services">
+        <div class="content">
+          <div class="products">
+            <div class="product">
+              <div class="product_image">
+                <a href="https://taxi.junoox.com/" target="_blank" rel="noopener noreferrer">
+                  <img src="./resources/images/products/svg/taxi.svg?ver=6" alt="">
+                </a>
+              </div>
+              <div class="product_name">
+                <a href="https://taxi.junoox.com/" target="_blank" rel="noopener noreferrer">
+                  <h4>JUNOO</h4>
+                  <h4 style="color:#D10303">VTC</h4>
+                </a>
+              </div>
             </div>
+            <div class="product">
+              <div class="product_image">
+                <a href="https://deli.junoox.com/" target="_blank" rel="noopener noreferrer">
+                  <img src="./resources/images/products/svg/deli.svg?ver=6" alt="">
+                </a>
+              </div>
+              <div class="product_name">
+                <a href="https://deli.junoox.com/" target="_blank" rel="noopener noreferrer">
+                  <h4>JUNOO</h4>
+                  <h4 style="color:#D10303">DELI</h4>
+                </a>
+              </div>
+            </div>
+            <div class="product">
+              <div class="product_image">
+                <a href="http://shopping.junoox.com" target="_blank" rel="noopener noreferrer">
+                  <img src="./resources/images/products/svg/shop.svg?ver=6" alt="">
+                </a>
+              </div>
+              <div class="product_name">
+                <a href="http://shopping.junoox.com" target="_blank" rel="noopener noreferrer">
+                  <h4>JUNOO</h4>
+                  <h4 style="color:#D10303">SHOP</h4>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="products">
+            <div class="product">
+              <div class="product_image">
+                <a href="https://junoopay.junoox.com/" target="_blank" rel="noopener noreferrer">
+                  <img src="./resources/images/products/svg/pay.svg?ver=6" alt="">
+                </a>
+              </div>
+              <div class="product_name">
+                <a href="https://junoopay.junoox.com/" target="_blank" rel="noopener noreferrer">
+                  <h4>JUNOO</h4>
+                  <h4 style="color:#D10303">PAY</h4>
+                </a>
+              </div>
+            </div>
+            <div class="product">
+              <div class="product_image">
+                <a href="https://mail.junoox.net/" target="_blank" rel="noopener noreferrer">
+                  <img src="./resources/images/products/svg/message.svg?ver=6" alt="">
+                </a>
+              </div>
+              <div class="product_name">
+                <a href="https://mail.junoox.net/" target="_blank" rel="noopener noreferrer">
+                  <h4>J</h4>
+                  <h4 style="color:#D10303">MAIL</h4>
+                </a>
+              </div>
+            </div>
+            <div class="product">
+              <div class="product_image">
+                <a href="https://trafic.junoox.com" target="_blank" rel="noopener noreferrer">
+                  <img src="./resources/images/products/svg/trafic.svg?ver=6" alt="">
+                </a>
+              </div>
+              <div class="product_name">
+                <a href="https://trafic.junoox.com" target="_blank" rel="noopener noreferrer">
+                  <h4>JUNOO</h4>
+                  <h4 style="color:#D10303">TRAFIC</h4>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="products">
+            <div class="product">
+              <div class="product_image">
+                <a href="https://map.junoox.com" target="_blank" rel="noopener noreferrer">
+                  <img src="./resources/images/products/svg/map.svg?ver=6" alt="">
+                </a>
+              </div>
+              <div class="product_name">
+                <a href="https://map.junoox.com" target="_blank" rel="noopener noreferrer">
+                  <h4>JUNOO</h4>
+                  <h4 style="color:#D10303">MAP</h4>
+                </a>
+              </div>
+            </div>
+            <!-- New Products -->
+            <div class="product">
+              <div class="product_image">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <img src="./resources/images/products/svg/images.svg?ver=6" alt="">
+                </a>
+              </div>
+              <div class="product_name">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <h4 style="color:#D10303">IMAGE</h4>
+                </a>
+              </div>
+            </div>
+            <div class="product">
+              <div class="product_image">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <img src="./resources/images/products/svg/videos.svg?ver=6" alt="">
+                </a>
+              </div>
+              <div class="product_name">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <h4 style="color:#D10303">VIDEO</h4>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="products">
+            <div class="product">
+              <div class="product_image">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <img src="./resources/images/products/svg/translate.svg?ver=6" alt="">
+                </a>
+              </div>
+              <div class="product_name">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <h4 style="color:#D10303">TRADUCTION</h4>
+                </a>
+              </div>
+            </div>
+            <div class="product">
+              <div class="product_image">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <img src="./resources/images/products/svg/weather.svg?ver=6" alt="">
+                </a>
+              </div>
+              <div class="product_name">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <h4 style="color:#D10303">METEO</h4>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="products button_">
+            <div class="product_button">
+              <a href="./pages/services.html" class="standard_button" target="_blank" rel="noopener noreferrer">Accédez à nos services</a>
+            </div>
+          </div>
         </div>
-    </div> 
+      </div>
+    </div>
     <main>
-        <section class="search_engine">
-            <div class="engine_logo">
-                <div class="logo_animate">
-                    <img src="./resources/images/logo_junoox.svg?ver=6" class="logo" alt="" width="500"> 
-                </div>
-                <h3 class="search-titre">Explorez, Découvrez, Commandez</h3>
-            </div>
-            <div class="engine_input_search">
-
-                <form action="#" method="post" class="search_engine_form">
-                    <div class="input_frame">
-
-                        <div class="search_icon">
-                            <img src="./resources/images/svg/search.svg?ver=6" alt="search_icon" class="search_icon_svg" id="search_icon_svg">
-                        </div>
-                                                
-                        <input type="text" class="input_frame_search" name="junoox_search_engine" id="junoox_search_engine" placeholder="Recherchez ici..." autocomplete>
-                        <div class="search_image_icon">
-                            
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </section>
-         <!-- wave animation -->
-        <div  class="wave">
+      <section class="search_engine">
+        <div class="engine_logo">
+          <div class="logo_animate">
+            <img src="./resources/images/logo_junoox.svg?ver=6" class="logo" alt="" width="500">
+          </div>
+          <h3 class="search-titre">Explorez, Découvrez, Commandez</h3>
         </div>
+        <div class="engine_input_search">
+
+          <form action="#" method="post" class="search_engine_form">
+            <div class="input_frame">
+
+              <div class="search_icon">
+                <img src="./resources/images/svg/search.svg?ver=6" alt="search_icon" class="search_icon_svg" id="search_icon_svg">
+              </div>
+
+              <input type="text" class="input_frame_search" name="junoox_search_engine" id="junoox_search_engine" placeholder="Recherchez ici..." autocomplete="autocomplete">
+              <div class="search_image_icon"></div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="products"></section>
     </main>
-    
-    
+
     <footer>
-        <div class="footer-container">
-            <div class="left-links-footer">
-                <a href="./pages/a-propos.html">A propos</a>   
-                <a href="./pages/services.html">Services</a>   
-                <a href="./pages/produits.html">Plateformes et produits</a>
-                 <a href="https://mail.junoox.net">JMail</a>
-            </div>
-            <div class="right-links-footer">
-                <a href="./pages/confidentialite.html">Politiques de confidentialités</a>   
-                <a href="./pages/cgu.html">Termes et conditions</a> 
-            </div>
+      <div class="footer-container">
+        <div class="left-links-footer">
+          <a href="./pages/a-propos.html">A propos</a>
+          <a href="./pages/services.html">Services</a>
+          <a href="./pages/produits.html">Plateformes et produits</a>
+          <a href="https://mail.junoox.net">JMail</a>
         </div>
+        <div class="right-links-footer">
+          <a href="./pages/confidentialite.html">Politiques de confidentialités</a>
+          <a href="./pages/cgu.html">Termes et conditions</a>
+        </div>
+      </div>
     </footer>
     <!--<script src="./resources/js/anime/lib/anime.min.js"></script>-->
     <script src="./resources/js/main.js?ver=6"></script>
     <script src="./resources/js/modal.js?ver=6"></script>
-</body>
+  </body>
+
 </html>
