@@ -486,10 +486,10 @@
     }
 
     main .search_engine {
+        height: 70%;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        margin-top: 30px;
+        justify-content: center;
     }
 
     main .search_engine .search-titre {
@@ -517,7 +517,7 @@
 
     main .products {
         width: 100%;
-        height: 20%;
+        height: 30%;
         display: flex;
         align-items: flex-start;
     }
@@ -530,7 +530,7 @@
     main .products .content .product .product_image a {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-end;
     }
 
     main .products .content .product .product_image a img {
