@@ -192,11 +192,14 @@
 
     main .products {
         width: 100%;
-        height: 20%;
+        height: 30%;
+        display: flex;
+        align-items: flex-start;
     }
 
     main .products .content {
-        width: 80%;
+        width: 90%;
+        height: 70%;
     }
 
     main .products .content .product .product_image a {
@@ -206,13 +209,13 @@
     }
 
     main .products .content .product .product_image a img {
-        width: 70%;
-        height: 70%;
+        width: 80%;
+        height: 80%;
         object-fit: contain;
     }
 
     main .products .content .product .product_name h4 a {
-        font-size: 8px;
+        font-size: 10px;
         font-weight: 400;
         color: #000;
     }
@@ -315,6 +318,7 @@
     }
 
     main .search_engine {
+        height: 70%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -345,11 +349,14 @@
 
     main .products {
         width: 100%;
-        height: 20%;
+        height: 30%;
+        display: flex;
+        align-items: flex-start;
     }
 
     main .products .content {
-        width: 70%;
+        width: 80%;
+        height: 70%;
     }
 
     main .products .content .product .product_image a {
@@ -359,8 +366,8 @@
     }
 
     main .products .content .product .product_image a img {
-        width: 60%;
-        height: 60%;
+        width: 80%;
+        height: 80%;
         object-fit: contain;
     }
 
@@ -735,11 +742,14 @@
 
     main .products {
         width: 100%;
-        height: 20%;
+        height: 30%;
+        display: flex;
+        align-items: flex-start;
     }
 
     main .products .content {
-        width: 70%;
+        width: 80%;
+        height: 70%;
     }
 
     main .products .content .product .product_image a {
@@ -749,8 +759,8 @@
     }
 
     main .products .content .product .product_image a img {
-        width: 60%;
-        height: 60%;
+        width: 80%;
+        height: 80%;
         object-fit: contain;
     }
 
