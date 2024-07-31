@@ -167,22 +167,47 @@
     }
 
     main .search_engine {
+        height: 70%;
         display: flex;
         flex-direction: column;
         justify-content: center;
+
     }
-    
+
+    main .search_engine .engine_input_search {
+        width: 95%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    main .search_engine .engine_input_search .search_engine_form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .search_engine .search-titre {
+        font-size: 13px;
+
+    }
+
     main .search_engine .engine_logo .logo_animate img {
-        height: 23%;
+        height: 33%;
     }
 
     main .search_engine .engine_input_search .search_engine_form .input_frame .input_frame_search {
         width: 70%;
-        font-size: 12px;
+        font-size: 13px;
+
     }
 
     main .search_engine .engine_input_search .search_engine_form .input_frame .input_frame_search::placeholder {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     main .search_engine .engine_input_search .search_engine_form .input_frame .search_icon img {
@@ -216,7 +241,7 @@
 
     main .products .content .product .product_name h4 a {
         font-size: 10px;
-        font-weight: 400;
+        font-weight: 500;
         color: #000;
     }
 
@@ -322,24 +347,43 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+
+    }
+
+    main .search_engine .engine_input_search {
+        width: 95%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    main .search_engine .engine_input_search .search_engine_form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     main .search_engine .search-titre {
-        font-size: 12px;
+        font-size: 13px;
+
     }
-    
+
     main .search_engine .engine_logo .logo_animate img {
         height: 33%;
-
     }
 
     main .search_engine .engine_input_search .search_engine_form .input_frame .input_frame_search {
         width: 70%;
-        font-size: 12px;
+        font-size: 13px;
+
     }
 
     main .search_engine .engine_input_search .search_engine_form .input_frame .input_frame_search::placeholder {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     main .search_engine .engine_input_search .search_engine_form .input_frame .search_icon img {
@@ -355,7 +399,7 @@
     }
 
     main .products .content {
-        width: 80%;
+        width: 73%;
         height: 70%;
     }
 
@@ -366,14 +410,14 @@
     }
 
     main .products .content .product .product_image a img {
-        width: 80%;
-        height: 80%;
+        width: 90%;
+        height: 90%;
         object-fit: contain;
     }
 
     main .products .content .product .product_name h4 a {
         font-size: 10px;
-        font-weight: 400;
+        font-weight: 500;
         color: #000;
     }
 
@@ -497,6 +541,24 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+
+    }
+
+    main .search_engine .engine_input_search {
+        width: 95%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    main .search_engine .engine_input_search .search_engine_form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     main .search_engine .search-titre {
@@ -511,6 +573,7 @@
     main .search_engine .engine_input_search .search_engine_form .input_frame .input_frame_search {
         width: 70%;
         font-size: 13px;
+
     }
 
     main .search_engine .engine_input_search .search_engine_form .input_frame .input_frame_search::placeholder {
@@ -530,7 +593,7 @@
     }
 
     main .products .content {
-        width: 80%;
+        width: 73%;
         height: 70%;
     }
 
@@ -541,14 +604,14 @@
     }
 
     main .products .content .product .product_image a img {
-        width: 80%;
-        height: 80%;
+        width: 90%;
+        height: 90%;
         object-fit: contain;
     }
 
     main .products .content .product .product_name h4 a {
         font-size: 10px;
-        font-weight: 400;
+        font-weight: 500;
         color: #000;
     }
 
@@ -670,37 +733,6 @@
         padding-left: 10px;
     }
 
-    header .navbar .navbar_logo img{
-        width: 110px;
-        height: 60%;
-        object-fit: contain;
-    }
-
-    main .search_engine {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    main .search_engine .engine_logo .logo_animate img {
-        height: 33%;
-
-    }
-
-    main .search_engine .engine_input_search .search_engine_form .input_frame .input_frame_search {
-        width: 70%;
-        font-size: 13px;
-    }
-
-    main .search_engine .engine_input_search .search_engine_form .input_frame .input_frame_search::placeholder {
-        font-size: 13px;
-    }
-
-    main .search_engine .engine_input_search .search_engine_form .input_frame .search_icon img {
-        width: 80%;
-        height: 80%;
-    }
-
     header .navbar .navbar_links {
         width: 67%;
         display: flex;
@@ -735,9 +767,59 @@
         font-size: 11px !important;
     }
 
+    header .navbar .navbar_logo img{
+        width: 110px;
+        height: 60%;
+        object-fit: contain;
+    }
+
+    main .search_engine {
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    main .search_engine .engine_input_search {
+        width: 95%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    main .search_engine .engine_input_search .search_engine_form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .search_engine .search-titre {
+        font-size: 13px;
+
+    }
+
     main .search_engine .engine_logo .logo_animate img {
         height: 33%;
+    }
 
+    main .search_engine .engine_input_search .search_engine_form .input_frame .input_frame_search {
+        width: 70%;
+        font-size: 13px;
+
+    }
+
+    main .search_engine .engine_input_search .search_engine_form .input_frame .input_frame_search::placeholder {
+        font-size: 13px;
+    }
+
+    main .search_engine .engine_input_search .search_engine_form .input_frame .search_icon img {
+        width: 80%;
+        height: 80%;
     }
 
     main .products {
@@ -748,7 +830,7 @@
     }
 
     main .products .content {
-        width: 80%;
+        width: 60%;
         height: 70%;
     }
 
@@ -759,14 +841,14 @@
     }
 
     main .products .content .product .product_image a img {
-        width: 80%;
-        height: 80%;
+        width: 90%;
+        height: 90%;
         object-fit: contain;
     }
 
     main .products .content .product .product_name h4 a {
         font-size: 10px;
-        font-weight: 400;
+        font-weight: 500;
         color: #000;
     }
 
@@ -850,14 +932,43 @@
     }
 
     main .search_engine {
+        height: 70%;
         display: flex;
         flex-direction: column;
         justify-content: center;
+
+    }
+
+    main .search_engine .engine_input_search {
+        width: 95%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    main .search_engine .engine_input_search .search_engine_form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .search_engine .search-titre {
+        font-size: 13px;
+
+    }
+
+    main .search_engine .engine_logo .logo_animate img {
+        height: 33%;
     }
 
     main .search_engine .engine_input_search .search_engine_form .input_frame .input_frame_search {
-        width: 60%;
+        width: 70%;
         font-size: 13px;
+
     }
 
     main .search_engine .engine_input_search .search_engine_form .input_frame .input_frame_search::placeholder {
@@ -868,18 +979,17 @@
         width: 80%;
         height: 80%;
     }
-    
-    main .search_engine .engine_logo .logo_animate img {
-        height: 33%;
-    }
 
     main .products {
         width: 100%;
-        height: 20%;
+        height: 30%;
+        display: flex;
+        align-items: flex-start;
     }
 
     main .products .content {
-        width: 55%;
+        width: 45%;
+        height: 70%;
     }
 
     main .products .content .product .product_image a {
@@ -889,54 +999,15 @@
     }
 
     main .products .content .product .product_image a img {
-        width: 60%;
-        height: 60%;
+        width: 90%;
+        height: 90%;
         object-fit: contain;
     }
 
     main .products .content .product .product_name h4 a {
         font-size: 10px;
-        font-weight: 400;
+        font-weight: 500;
         color: #000;
-    }
-
-    header .navbar .navbar_links {
-        width: 67%;
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    header .navbar .navbar_links .navbar_items {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: flex-end;
-    }
-    
-
-    header .navbar .navbar_links .navbar_item.services_collapse {
-        width: 15%;
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .modal_services .modal_content_services {
-        width: 100%;
-
-    }
-
-    .modal_services .modal_content_services .content {
-        width: 250px !important;
-
-    }
-
-    .modal_content_services .content .products .product .product_name  a h4{
-        font-size: 12px !important;
-        padding-bottom: 1rem !important;
-    }
-
-    main .search_engine .engine_logo .logo_animate img {
-        height: 33%;
     }
 
     footer .footer-container {
@@ -1032,24 +1103,6 @@
     }
 
 
-    main .search_engine .engine_logo .logo_animate img {
-        height: 33%;
-    }
-
-    main .search_engine .engine_input_search .search_engine_form .input_frame .input_frame_search {
-        width: 70%;
-        font-size: 13px;
-    }
-
-    main .search_engine .engine_input_search .search_engine_form .input_frame .input_frame_search::placeholder {
-        font-size: 13px;
-    }
-
-    main .search_engine .engine_input_search .search_engine_form .input_frame .search_icon img {
-        width: 80%;
-        height: 80%;
-    }
-
     .modal_services .modal_content_services {
         width: 100%;
 
@@ -1062,6 +1115,85 @@
 
     .modal_content_services .content .products .product .product_name a h4 {
         font-size: 11px !important;
+    }
+
+    main .search_engine {
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    main .search_engine .engine_input_search {
+        width: 95%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    main .search_engine .engine_input_search .search_engine_form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .search_engine .search-titre {
+        font-size: 13px;
+
+    }
+
+    main .search_engine .engine_logo .logo_animate img {
+        height: 33%;
+    }
+
+    main .search_engine .engine_input_search .search_engine_form .input_frame .input_frame_search {
+        width: 70%;
+        font-size: 13px;
+
+    }
+
+    main .search_engine .engine_input_search .search_engine_form .input_frame .input_frame_search::placeholder {
+        font-size: 13px;
+    }
+
+    main .search_engine .engine_input_search .search_engine_form .input_frame .search_icon img {
+        width: 80%;
+        height: 80%;
+    }
+
+    main .products {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    main .products .content {
+        width: 35%;
+        height: 70%;
+    }
+
+    main .products .content .product .product_image a {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    main .products .content .product .product_image a img {
+        width: 90%;
+        height: 90%;
+        object-fit: contain;
+    }
+
+    main .products .content .product .product_name h4 a {
+        font-size: 10px;
+        font-weight: 500;
+        color: #000;
     }
 
     footer .footer-container {

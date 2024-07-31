@@ -133,7 +133,7 @@ main .banner .banner_image .overlay {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.584);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 main .banner .banner_image .overlay h3{
@@ -142,6 +142,9 @@ main .banner .banner_image .overlay h3{
     font-weight: 700;
     color: white;
     text-align: center;
+    padding: 20px;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.378);
 }
 
 main .banner .banner_text {
