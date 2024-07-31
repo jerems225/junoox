@@ -518,10 +518,13 @@
     main .products {
         width: 100%;
         height: 20%;
+        display: flex;
+        align-items: flex-start;
     }
 
     main .products .content {
-        width: 70%;
+        width: 80%;
+        height: 70%;
     }
 
     main .products .content .product .product_image a {
@@ -531,8 +534,8 @@
     }
 
     main .products .content .product .product_image a img {
-        width: 60%;
-        height: 60%;
+        width: 80%;
+        height: 80%;
         object-fit: contain;
     }
 
