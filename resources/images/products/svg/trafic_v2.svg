@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42"
+    height="42" id="traffic">
+    <defs>
+        <linearGradient id="b" x1="1056.035" x2="1031.176" y1="544.13" y2="517.701"
+            gradientTransform="translate(-1384.02 316.47) scale(1.34562)"
+            gradientUnits="userSpaceOnUse" xlink:href="#a"></linearGradient>
+        <linearGradient id="a">
+            <stop offset="0" stop-color="#d10303"></stop>
+            <stop offset="1" stop-color="#d10303"></stop>
+        </linearGradient>
+    </defs>
+    <g transform="translate(0 -1010.362)">
+        <rect width="42" height="42" y="1010.362" fill="url(#b)" rx="17.152" ry="18.152"></rect>
+        <path fill="#fff"
+            style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;block-progression:tb;isolation:auto;mix-blend-mode:normal"
+            d="M17.5 1016.362a.5.5 0 0 0-.5.5v1.5h-1.5a.5.5 0 0 0-.5.5v2.506h-5v2.994h.5c1.386 0 2.5 1.114 2.5 2.5v.498h2v2.002h-5v2.994h.5c1.386 0 2.5 1.114 2.5 2.5v.498h2v2.008h-5v2.994h.5c1.386 0 2.5 1.114 2.5 2.5v.498h2v1.508a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5v-1.508h2v-.498c0-1.386 1.114-2.5 2.5-2.5h.5v-2.994h-5v-2.008h2v-.498c0-1.386 1.114-2.5 2.5-2.5h.5v-2.994h-5v-2.002h2v-.498c0-1.386 1.114-2.5 2.5-2.5h.5v-2.994h-5v-2.506a.5.5 0 0 0-.5-.5H25v-1.5a.5.5 0 0 0-.5-.5h-7zm.5 1h6v1h-6v-1zm-2 2h10v25H16v-25zm5 2c-1.65 0-3 1.35-3 3 0 1.651 1.35 3 3 3s3-1.349 3-3c0-1.65-1.35-3-3-3zm0 1c1.11 0 2 .89 2 2 0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2zm-10 .01h4v3.992h-1.102a3.426 3.426 0 0 0-2.898-2.9v-1.096zm16 0h4v1.096a3.426 3.426 0 0 0-2.898 2.896H27v-3.992zm-6 6.994c-1.65 0-3 1.35-3 3 0 1.651 1.35 3 3 3s3-1.349 3-3c0-1.65-1.35-3-3-3zm-10 1h4v3.992h-1.102a3.426 3.426 0 0 0-2.898-2.9v-1.096zm10 0c1.11 0 2 .89 2 2 0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2zm6 0h4v1.096a3.426 3.426 0 0 0-2.898 2.897H27v-3.993zm-6 7c-1.65 0-3 1.35-3 3 0 1.651 1.35 3 3 3s3-1.349 3-3c0-1.65-1.35-3-3-3zm-10 1h4v3.992h-1.102a3.426 3.426 0 0 0-2.898-2.9v-1.096zm10 0c1.11 0 2 .89 2 2 0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2zm6 0h4v1.096a3.426 3.426 0 0 0-2.898 2.897H27v-3.993z"
+            color="#000" font-family="sans-serif" font-weight="400" overflow="visible"></path>
+    </g>
+</svg>

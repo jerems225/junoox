@@ -13,10 +13,18 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  transition: 0.2s ease-in-out;
 }
 
-.standard_button:hover {
+.standard_button:hover, .standard_button.active:hover {
   background-image: linear-gradient(#d10303, #2680ed);
   box-sizing: border-box;
   color: #fff;
+  transform: scale(0.95);
+  transition: 0.3s ease-in-out;
 }
+
+.standard_button.active {
+  background-image: linear-gradient(#d10303, #2680ed);
+}
+

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25"
+    height="25" id="mail">
+    <defs>
+        <linearGradient id="a">
+            <stop offset="0" stop-color="#2c2e83"></stop>
+            <stop offset="1" stop-color="#2c2e83"></stop>
+        </linearGradient>
+        <linearGradient id="b" x1="992.183" x2="1019.298" y1="516.081" y2="545.959"
+            gradientTransform="translate(-793.076 614.331) scale(.80097)"
+            gradientUnits="userSpaceOnUse" xlink:href="#a"></linearGradient>
+    </defs>
+    <g transform="translate(0 -1027.362)">
+        <rect width="25" height="25" y="1027.362" fill="url(#b)" rx="11.283" ry="11.283"></rect>
+        <path
+            style="text-indent:0;text-align:start;line-height:normal;text-transform:none;block-progression:tb"
+            fill="#fff"
+            d="M6 1035.362v8h6v-1H7v-5.414l4.996 2.998 5.004-3.002v.418h1v-2H6zm1.967 1h8.06l-4.03 2.418-4.03-2.418zm9.03 0H17v.01l-.004-.01zm2.294 1.006a.883.883 0 0 0-.627.256l-.863.863.006.01-4.198 4.18-1.039 3.119 3.118-1.039 4.189-4.19.365-.367.498-.496a.897.897 0 0 0 0-1.256l-.82-.82a.887.887 0 0 0-.629-.256zm0 1.041.664.664-.424.422-.668-.658.428-.428zm-1.129 1.143.662.65-3.271 3.271-.664-.664 3.273-3.257zm-3.83 4.115.361.361-.543.182.182-.543z"
+            color="#000" font-family="sans-serif" font-weight="400" overflow="visible"></path>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="credit-card">
+    <defs>
+        <linearGradient id="a" x1="4.056" x2="19.944" y1="19.944" y2="4.056"
+            gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#d10303"></stop>
+            <stop offset="1" stop-color="#d10303"></stop>
+        </linearGradient>
+    </defs>
+    <path fill="url(#a)"
+        d="m2.25,10.75v6.25c0,1.517,1.233,2.75,2.75,2.75h14c1.517,0,2.75-1.233,2.75-2.75v-6.25H2.25Zm5.75,6h-2c-.414,0-.75-.336-.75-.75s.336-.75.75-.75h2c.414,0,.75.336.75.75s-.336.75-.75.75Zm5,0h-2c-.414,0-.75-.336-.75-.75s.336-.75.75-.75h2c.414,0,.75.336.75.75s-.336.75-.75.75ZM2.25,9.25v-2.25c0-1.517,1.233-2.75,2.75-2.75h14c1.517,0,2.75,1.233,2.75,2.75v2.25H2.25Z"></path>
+</svg>
