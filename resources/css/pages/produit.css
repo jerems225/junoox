@@ -23,7 +23,7 @@ main .produits .produits_container {
     width: 85%;
     display: flex;
     /* flex-wrap: wrap; */
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
     margin-top: 26px;
     /* margin-bottom: 30px; */
@@ -33,6 +33,7 @@ main .produits .produits_container {
 main .produits .produits_container .produits_link_box {
     width: 32%;
     height: 32%;
+    margin-left: 15px;
 }
 
 main .produits .produits_container .produits_link_box .produits_item {
