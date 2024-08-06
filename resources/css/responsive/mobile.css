@@ -1327,6 +1327,28 @@
     header .navbar .navbar_logo {
         padding-left: 10px;
     }
+
+    main .search_engine .engine_input_search .search_engine_form .input_frame {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1600px)  {
+    header .navbar .navbar_logo {
+        padding-left: 10px;
+    }
+
+    main .search_engine .engine_input_search .search_engine_form .input_frame {
+        width: 75%;
+        height: 87%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
