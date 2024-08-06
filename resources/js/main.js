@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var searchInput = document.getElementById("junoox_search_engine");
   var searchButton = document.getElementById("search_icon_svg");
 
-  searchInput.focus();
+  searchInput?.focus();
 
 
   function redirectToSearchResults(query) {
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "&type=web";
   }
 
-  searchInput.addEventListener("keydown", function (e) {
+  searchInput?.addEventListener("keydown", function (e) {
     if (e.key === "Enter") {
       e.preventDefault();
       var query = searchInput.value.trim();
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  searchButton.addEventListener("click", function () {
+  searchButton?.addEventListener("click", function () {
     var query = searchInput.value.trim();
     redirectToSearchResults(query);
   });
