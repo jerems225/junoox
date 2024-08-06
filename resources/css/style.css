@@ -277,6 +277,7 @@ main .search_engine .engine_input_search .search_engine_form .input_frame .searc
     width: 70%;
     height: 70%;
     object-fit: contain;
+    cursor: pointer;
 }
 
 main .search_engine .engine_input_search .search_engine_form .input_frame .search_by_audio {
